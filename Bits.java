@@ -62,7 +62,7 @@
 
      
          //********* IF and else ********
-    // ********find even or odd number ***********************
+    // ********find even or odd numbers ***********************
 
     //     int x = sc.nextInt();
 
