@@ -1732,3 +1732,20 @@
 //         }
 // } 
 
+
+// print number from 1 to 5 . 
+
+public class Recursion1 { 
+        public static void printdig ( int n ){
+
+                if(n == 6 ){
+                        return ;
+                } 
+                System.out.println(n);
+                printdig(n+1); 
+        }
+        public static void main ( String args []){
+                int n = 1 ;
+                printdig(n);
+        }
+} 
