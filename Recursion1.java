@@ -1691,4 +1691,44 @@
 // =================================================================== 
 // ===================================================================
 
- 
+            // ************************* 
+// ****************** //Recursion ****************** 
+             //************************** 
+// *****************              ****************** 
+
+
+// // print NUmber from 5 to 1 . 
+
+// public class Recursion1 { 
+//         public static void printVal(int n) {
+//                 if(n == 0){
+//                         return;
+//                 }
+//                 System.out.println(n);
+//                 printVal(n-1);      
+//         } 
+//         public static void main (String args[]){
+//                 int n = 5 ;
+//                 printVal(n);
+//         }
+// }
+
+// ************************************************************ 
+
+// // print number from 1 to 5 . 
+
+// public class Recursion1 { 
+//         public static void printdig ( int n ){
+
+//                 if(n == 6 ){
+//                         return ;
+//                 } 
+//                 System.out.println(n);
+//                 printdig(n+1); 
+//         }
+//         public static void main ( String args []){
+//                 int n = 1 ;
+//                 printdig(n);
+//         }
+// } 
+
