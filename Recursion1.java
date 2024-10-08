@@ -1731,21 +1731,37 @@
 //                 printdig(n);
 //         }
 // } 
+//  ******************************************************************************* 
+ 
+
+//  wap print 10 to 1 
+// public class Recursion1 { 
+//         public static void calVal( int n){
+
+//                 if(n == 0){
+//                         return;
+//                 } 
+//                 System.out.println(n);
+//                 calVal(n-1);
+//         }
+//         public static void main (String args[]){
+//                 int n = 10;
+//                 calVal(n);
+//         }
+// }
 
 
-// print number from 1 to 5 . 
 
-public class Recursion1 { 
-        public static void printdig ( int n ){
 
-                if(n == 6 ){
-                        return ;
-                } 
-                System.out.println(n);
-                printdig(n+1); 
-        }
-        public static void main ( String args []){
-                int n = 1 ;
-                printdig(n);
-        }
-} 
+
+
+
+
+
+
+
+
+
+
+
+
