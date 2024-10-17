@@ -1813,35 +1813,24 @@
 // ********************************************************************************* 
 // *******
 // ********************************************************************************* 
-// *******
- 
+// *******  
 
-// *********** Pratice question ************************************************** 
-//  if else check 
+// print the fibonacci sequence till nth term 
 
-// import java.util.*;
-// public class Val1 {
-//         public static void main( String args[]){
-//                 Scanner sc = new Scanner(System.in);
-//                 int x = sc.nextInt();
-
-//                 if(x % 2 == 0){
-//                         System.out.println("even");
-//                 } else {
-//                         System.out.println("odd");
+// public class harry {
+//         public static void printFib(int a, int b, int n){
+//                 if ( n == 0 ){
+//                         return;
 //                 }
+//                 int c = a + b;
+//                 System.out.println(c);
+//                 printFib( b, c, n-1);
+//         }
+//         public static void main (String args[]){
+//                 int a = 0, b = 1;
+//                 System.out.println(a);
+//                 System.out.println(b);
+//                 int n = 7; 
+//                 printFib(a, b, n-2);
 //         }
 // }
-// ******************************************************************************** 
- 
-
-
-
-
-
-
-
-
-
-
-
