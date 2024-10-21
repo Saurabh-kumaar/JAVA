@@ -1833,4 +1833,39 @@
 //                 int n = 7; 
 //                 printFib(a, b, n-2);
 //         }
+// } 
+
+// //===================================================================================== 
+// //===================================================================================== 
+// //===================================================================================== 
+// //===================================================================================== 
+// //       OOPS CONCEPT 
+
+// class Pen {
+//         String color; 
+//         String type ; 
+
+//         public void write(){
+//                 System.out.println("write some");
+//         }
+
+//         public void writeColor() {
+//                 System.out.println(this.color);
+//         }
+// }
+// public class OOPS {
+//         public static void main(String args[]){
+//                 Pen pen1 = new Pen();
+//                 pen1.color = "black";
+//                 pen1.type = "gel";
+
+//                 pen1.write();
+//                 pen1.writeColor();
+
+//                 Pen pen2 = new Pen();
+//                 pen2.color = "blue";
+//                 pen2.type = "bollpen";
+
+//                 pen2.writeColor();
+//         }
 // }
