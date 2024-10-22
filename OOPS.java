@@ -1869,3 +1869,38 @@
 //                 pen2.writeColor();
 //         }
 // }
+
+// class Pen {
+//         String color;
+//         String type ;  //ballpoint , gel
+
+//         public void print(){
+//                 System.out.println("write somethings");
+//         }
+//         public void printcolor(){
+//                 System.out.println(this.color);
+//         }
+//         public void printtype(){
+//                 System.out.println(this.type);
+//         }
+// } 
+// public class OOPS{
+
+//         public static void main(String args []){
+                
+//                 Pen pen1 = new Pen();
+//                 pen1.color = "black";
+//                 pen1.type = "gel";
+
+//                 Pen pen2 = new Pen();
+//                 pen2.color = "white";
+//                 pen2.type = "ballpen";
+
+//                 pen1.printcolor();
+//                 pen2.printcolor();
+
+//                 pen1.printtype();
+//                 pen2.printtype();
+//         }
+// }
+// ************************************************************************** 
