@@ -1904,3 +1904,44 @@
 //         }
 // }
 // ************************************************************************** 
+
+
+// class Student {
+//         String name;
+//         int age; 
+
+//         public void thoseData() {
+//                 System.out.println(this.name);
+//                 System.out.println(this.age);
+//         }
+
+//         Student(String name, int age) {
+//                 this.name = name;
+//                 this.age = age;
+//         }
+// } 
+// public class OOPS {
+//         public static void main (String args []){
+//                 Student a2 = new Student("devil", 18);
+//                 a2.thoseData();
+//         }
+// }
+// // ************************************************************************ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
