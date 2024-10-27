@@ -1994,6 +1994,8 @@
 
 // // Inheritance  :- reusing code by inheriting from parent classes. 
 
+// (i) single Inheritance :- 
+
 
 
 
