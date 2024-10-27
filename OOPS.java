@@ -1996,7 +1996,12 @@
 
 // (i) single Inheritance :- in this type , a class inherits from only one parent class 
 
-
+// class Parents {
+//     //Parent class code 
+// } 
+// class child extends Parent {
+//     // child class code
+// }
 
 
 
