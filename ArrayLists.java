@@ -1,6 +1,7 @@
 
      // ******* Add two Value ***** 
-//      public class saurabh{
+//      import java.util.Scanner;
+//      public class ArrayLists{
 //         public static void main ( String args []){
 //                 Scanner sc = new Scanner (System.in);
 
@@ -10,10 +11,25 @@
 
 //         int sum = a + b ; 
 //         System.out.println(sum); 
+
 //          }
-//  }
+//  } 
 
+// import java.util.Scanner; // Import the Scanner class
 
+// public class ArrayLists {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int a = sc.nextInt(); // Input for a
+//         int b = sc.nextInt(); // Input for b
+
+//         int sum = a + b; // Calculate sum
+//         System.out.println("The sum is: " + sum); // Print sum
+
+//          // Close the scanner to avoid resource leaks
+//     }
+// }  
 
          // ******* multiple of two number *********
 
@@ -1986,7 +2002,7 @@
 //          Student s1 = new Student();
 //          s1.name = "Rajat";
 //          s1.age = 18; 
-
+  
 //          s1.printInfo(s1.age);
 //          s1.printInfo(s1.name); 
 //     }
@@ -1999,72 +2015,15 @@
 // (i) single Inheritance :- in this type , a class inherits from only one parent class 
 
 
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
+// import java.util.ArrayList;
+
+// class ArrayLists {
+//     public static void main (String args []){
+//         ArrayList<Integer> list = new ArrayList <Integer>(); 
+
+//         //add elements 
+//         list.add(0);
+//         list.add(2);
+//         list.add(3);
+//     }
+// }
