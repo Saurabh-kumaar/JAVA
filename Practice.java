@@ -66,7 +66,33 @@
 //         System.out.println("Simple Interest = " + simpleInterest);
 //     }
 // } 
-// ******************************************************************* 
+// *******************************************************************  
+
+// // max of three numbers:-
+
+// import java.util.Scanner; 
+
+// public class Practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num1 = sc.nextInt();
+//         int num2 = sc.nextInt();
+//         int num3 = sc.nextInt();
+
+//         // Find the maximum number
+//         int max = num1;
+//         if (num2 > max) {
+//             max = num2;
+//         } 
+//         if (num3 > max) {
+//             max = num3;
+//         }
+//         // Display result
+//         System.out.println("max of three num is: " + max);
+//     }
+// }
+// **********************************************************************
 
     
 
