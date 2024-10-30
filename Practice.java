@@ -1,4 +1,4 @@
- // Add two 
+ // Add two n
 // import java.util.Scanner;
 
 // public class Practice {
