@@ -2011,8 +2011,14 @@
 // // Inheritance  :- reusing code by inheriting from parent classes. 
 
 // (i) single Inheritance :- in this type , a class inherits from only one parent class 
+ 
+// =====================================================================
+// ======================================================================
+// ======================================================================
+// ======================================================================
 
-
+// //  ArrayLists Concept 
+  
 // import java.util.ArrayList;
 // import java.util.Collections;
 
