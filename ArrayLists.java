@@ -2026,8 +2026,25 @@
 
 //         System.out.println(list); 
 
-           //get elements
-           
-       
+//         //  get elements
+//         int element = list.get(0);
+//         System.out.println(element);
+     
+ 
+//          //add element in between
+//          list.add(1, 6);
+//          System.out.println(list); 
+ 
+//          //set element 
+//          list.set(0, 7);
+//          System.out.println(list); 
+        
+//          //delete element
+//          list.remove(1);
+//          System.out.println(list); 
+ 
+//          //size
+//          int size = list.size();
+//          System.out.println(size);
 //     }
 // } 
