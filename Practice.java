@@ -15,35 +15,37 @@
 //   }  
 // ********************************************************************************* 
 
-import java.util.Scanner; 
-public class Practice { 
-  public static void main(String[] args) { 
-        Scanner sc = new Scanner(System.in);
+// find if a number is prime or not  
 
-        int num = sc.nextInt();
+// import java.util.Scanner; 
+// public class Practice { 
+//   public static void main(String[] args) { 
+//         Scanner sc = new Scanner(System.in);
 
-        boolean isPrime = true;
+//         int num = sc.nextInt();
 
-        if (num <= 1) {
-            isPrime = false;  
+//         boolean isPrime = true;
 
-        } else {
-            for (int i = 2; i <= num / 2; i++) {  
-                if (num % i == 0) { 
-                    isPrime = false;
-                    break;
-                }
-            } 
-        }
+//         if (num <= 1) {
+//             isPrime = false;  
 
-        if (isPrime) { 
-            System.out.println(num + " is a prime number.");
-        } else {
-            System.out.println(num + " is not a prime number.");
-        }
+//         } else {
+//             for (int i = 2; i <= num / 2; i++) {  
+//                 if (num % i == 0) { 
+//                     isPrime = false;
+//                     break;
+//                 }
+//             } 
+//         }
 
-      }
-    }   
+//         if (isPrime) { 
+//             System.out.println(num + " is a prime number.");
+//         } else {
+//             System.out.println(num + " is not a prime number.");
+//         }
+
+//       }
+//     }   
 
 
 
