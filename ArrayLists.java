@@ -16,7 +16,7 @@
 //  } 
 // ****************************************************************** 
 
-// // sum of two nu
+// // sum of two num
 // import java.util.Scanner; // Import the Scanner class
 
 // public class ArrayLists {
