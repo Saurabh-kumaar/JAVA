@@ -15,6 +15,8 @@
 //          }
 //  } 
 // ****************************************************************** 
+
+// // sum 
 // import java.util.Scanner; // Import the Scanner class
 
 // public class ArrayLists {
@@ -26,8 +28,6 @@
 
 //         int sum = a + b; // Calculate sum
 //         System.out.println("The sum is: " + sum); // Print sum
-
-//          // Close the scanner to avoid resource leaks
 //     }
 // }  
 
