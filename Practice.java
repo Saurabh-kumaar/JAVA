@@ -295,3 +295,14 @@
 //     }
 // }
 // ============================================================= 
+
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){
+//         byte b = 10;
+//         byte a = (byte)( b * 3);
+//         System.out.println(a);
+//     }
+// }
+// ================================================================= 
