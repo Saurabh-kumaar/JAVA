@@ -237,3 +237,28 @@
 //     }
 // }
 // ============================================================== 
+
+// type conversion :-
+
+// import java.util.*; 
+
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in); 
+//         float number = sc.nextInt();
+//         System.out.println(number); 
+//     }
+// }
+// ================================================================ 
+
+
+// import java.util.*; 
+
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in); 
+//         float a = 34.34f;
+//         int b = (int) a;
+//         System.out.println(b);
+//     }
+// }
