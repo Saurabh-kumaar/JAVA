@@ -142,7 +142,10 @@
 //     public static void main(String args []){
 //         int a = 8;
 //         int b = 3;
-//         System.out.println("a");
+//         System.out.println("a"); 
+
+//         String name =" raju bhai" ;
+//         System.out.println(name);
 //     }
 // }
 // ===============================================================
