@@ -190,7 +190,7 @@
 //         int a = sc.nextInt();
 //         int b = sc.nextInt();
 
-//         int sum = a+b;
+//         int sum = a+b; // add value 
 //         System.out.println(sum);
 //     }
 // }
@@ -206,8 +206,21 @@
 //         int a = sc.nextInt();
 //         int b = sc.nextInt ();
 
-//         int product = a*b;
+//         int product = a*b; // multiple 
 //         System.out.println(product );
 //     }
 // } 
 // ======================================================== 
+ 
+
+// import java.util.*; 
+
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         float rad = sc.nextFloat(); 
+//         float area = 3.14f * rad * rad ;
+//         System.out.println(area);
+
+//     }
+// } 
