@@ -462,6 +462,7 @@
 //     }
 // }
 // ======  
+// find the value given questions :- 
 
 // import java.util.*;
 // public class Practice{
@@ -474,4 +475,23 @@
 //         System.out.println(equ1);
 //         System.out.println(equ2);
 //     }
+// } 
+// ======   
+
+// give your logic in this code :- 
+// import java.util.*;
+// public class Practice{
+//     public static void main(String argsv[]){
+//         int x = 200, y=50, z=100;
+//         if(x > y && y > z){
+//             System.out.println("hello");
+//         } 
+//         if(z > y && z < x){
+//             System.out.println("java");
+//         }
+//         if((y+200) < x && (y+150) < z){
+//             System.out.println("hello java");
+//         }
+//     }
 // }
+// ====== 
