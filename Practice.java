@@ -461,4 +461,17 @@
 //         System.out.println(B);
 //     }
 // }
-// ====== 
+// ======  
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         int x = 2, y = 5;
+        
+//         int equ1 = (x * y / x);
+//         int equ2 = (x * (y / x));
+
+//         System.out.println(equ1);
+//         System.out.println(equ2);
+//     }
+// }
