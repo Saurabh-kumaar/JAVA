@@ -307,6 +307,8 @@
 // }
 // ================================================================= 
 
+// avg of 3 numbers :- 
+
 // import java.util.*;
 // public class Practice{
 //     public static void main (String args[]){
