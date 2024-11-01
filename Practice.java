@@ -339,3 +339,23 @@
  
 // take 3 item to user and add on his 18% gst charge then add total value 
 // :- 
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         float pencil = sc.nextFloat();
+//         float pen = sc.nextFloat();
+//         float erasers = sc.nextFloat(); 
+         
+//         // find total result 
+//         float totalBill = pencil + pen + erasers ; 
+//         System.out.println("the totalbill of product is =" +totalBill); 
+
+//         // gst 
+//         float gst = totalBill * 18 / 100 ;  
+//         System.out.println("gst of product is =" +gst);
+
+//         float totalGst = totalBill + gst;
+//         System.out.println( "total final amount =" +totalGst);
+//     }
+// }
