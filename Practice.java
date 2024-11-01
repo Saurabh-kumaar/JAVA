@@ -420,3 +420,24 @@
 //     }
 // } 
 // ========
+ 
+// // Logical operator :-
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){ 
+
+//         // Logical AND 
+//         System.out.println((3>2) && (6>3)); 
+//         System.out.println((5<2) && (9>3)); 
+//         System.out.println((3<2) && (2>5)); 
+
+//         // Logical or 
+//         System.out.println((2>4) || (3<9)); 
+//         System.out.println((8>3) || (2<5));
+//         System.out.println((3<2) || (9<2)); 
+
+//         // Logical not 
+//         System.out.println( ! (4<2)); 
+//         System.out.println(! (5<9));
+//     }
+// }
