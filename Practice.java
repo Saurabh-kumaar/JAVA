@@ -336,3 +336,5 @@
 //     }
 // } 
 // ==================================================================== 
+ 
+// take 3 item to user and add on his 18% gst charge then add total value 
