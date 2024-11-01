@@ -324,7 +324,7 @@
 // ==================================================================== 
 
 // In a program,input the side of a square You have to output thearea of the square.
-
+// :- 
 // import java.util.*;
 // public class Practice{
 //     public static void main(String args []){
