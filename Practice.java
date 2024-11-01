@@ -441,3 +441,24 @@
 //         System.out.println(! (5<9));
 //     }
 // }
+// Assignment operators :-
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args[]){
+//         int A = 8 ; 
+//         // A += 10; 
+//         // A = A + 4; 
+
+//         int B = 6 ; 
+//         // B -= 2 ;  
+        
+//         //multiple 
+//         B *= 4; 
+
+//         // reminder
+//         B %= 5;
+//         System.out.println(B);
+//     }
+// }
+// ====== 
