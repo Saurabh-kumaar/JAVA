@@ -376,3 +376,14 @@
 // }
 // ====================================================================== 
 // OPERATORS :-
+// import java.util.*;
+// public class Practice{
+//     public static void main (String args[]){
+//         int A = 23;
+//         int B = 2 ;
+//         System.out.println("sum = " + (A+B)); 
+//         System.out.println("sub = " + (A-B)); 
+//         System.out.println("mul = " + (A*B)); 
+//         System.out.println("Div = " + (A/B));
+//     }
+// }
