@@ -387,4 +387,18 @@
 //         System.out.println("Div = " + (A/B));
 //     }
 // } 
-// ===================================================================== 
+// 
+// :- 
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args[]){
+//         int a = 5 ; 
+//         // int b = ++a;  // pre increment
+//         int b = a++;     // post increment 
+
+            // int a = 4;   // pre decrement
+            // int b = --a  // post decrement
+//         System.out.println(a);
+//         System.out.println(b);
+//     }
+// }
