@@ -322,3 +322,5 @@
 //         }
 //     }
 // ==================================================================== 
+
+// Inaprogram,input the side of a square You have to output thearea of the square.
