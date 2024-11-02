@@ -510,6 +510,7 @@
 //     }
 // }
 // ======  
+// solve it :-
 // import java.util.*;
 
 // public class Practice{
