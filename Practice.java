@@ -509,7 +509,7 @@
 //         System.out.println(x + " " + y + " " + z);
 //     }
 // }
-// ====== 
+// ======  
 // import java.util.*;
 
 // public class Practice{
@@ -522,4 +522,18 @@
 //         System.out.println(exp);
 //     }
 // }
-// ======
+// ====== 
+// solve it :- 
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []) {
+//         int x = 10, y = 5;
+
+//         int val1 = (y * (x / y + x / y));    // 5*(2+2)= 5(4)=20 
+//         int val2 = (y * x / y + y * x / y);  // 5*2 + 5*2 = 20
+
+//         System.out.println(val1);
+//         System.out.println(val2);
+//     }
+// }
