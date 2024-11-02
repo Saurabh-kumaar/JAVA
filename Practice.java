@@ -504,7 +504,7 @@
 //         x = y = z = 2;
 //         x += y;           //x = x + y = 2 + 2 = 4 
 //         y -= z;           //y = y - z = 2 - 2 = 0
-//         z /= (x + y);     
+//         z /= (x + y);     //z = z
 
 //         System.out.println(x + " " + y + " " + z);
 //     }
