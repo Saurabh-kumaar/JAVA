@@ -495,3 +495,17 @@
 //     }
 // }
 // ====== 
+
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){
+//         int x, y, z;
+//         x = y = z = 2;
+//         x += y;           //x = x + y = 2 + 2 = 4 
+//         y -= z;           //y = y - z = 2 - 2 = 0
+//         z /= (x + y);     
+
+//         System.out.println(x + " " + y + " " + z);
+//     }
+// }
