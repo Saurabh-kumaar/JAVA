@@ -2026,7 +2026,7 @@
 //         int [] marks = new int[3];
 //         marks [0] = 78; // math 
 //         marks [1] = 98; // chem
-//         marks [2] = 99; 
+//         marks [2] = 99; // bio
 //         //System.out.println(marks [0]); 
         
             // using loop for print all no 
