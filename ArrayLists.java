@@ -2029,7 +2029,8 @@
 //         marks [2] = 99; 
 //         //System.out.println(marks [0]); 
         
-            // using loop for print 
+            // using loop for print all no 
+            
 //         for (int i = 0; i<3; i++){
 //             System.out.println(marks[i]);
 //         }
