@@ -2030,14 +2030,13 @@
 //         //System.out.println(marks [0]); 
         
             // using loop for print all no 
-            
+
 //         for (int i = 0; i<3; i++){
 //             System.out.println(marks[i]);
 //         }
 //     }
 // }
-
-
+// ======== 
 // import java.util.ArrayList;
 // import java.util.Collections;
 
