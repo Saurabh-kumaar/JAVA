@@ -670,7 +670,7 @@
 //         }
 //     }
 // } 
-            // inverted pyramid 
+            // inverted pyramid .
 
 // import java.util.*;
 // public class Practice{
@@ -686,7 +686,8 @@
 //         }
 //     }
 // }  
-// ===== 
+// =====  
+                        //  Rectangle 
 // import java.util.*;
 
 // public class Practice{
