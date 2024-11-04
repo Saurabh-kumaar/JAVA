@@ -722,4 +722,23 @@
 //             System.out.println("it is odd number");
 //         }
 //     }
+// } 
+
+            // Conditional statement  
+
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){
+//         int age = 16;  
+//         if( age >= 18){
+//             System.out.println("Adult hai");
+//         } 
+//         if (age > 14 && age  < 18){
+//             System.out.println("teenager");
+//         }
+//          else {
+//             System.out.println("adult nhi hai");
+//         }
+//     }
 // }
