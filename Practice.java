@@ -538,3 +538,152 @@
 //         System.out.println(val2);
 //     }
 // }
+// =========  
+
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []) { 
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt(); 
+
+//         // sum of 
+//         // int sum = a + b ; 
+
+//         // sub of 
+//         // int sub = a - b ;
+//         System.out.println(sub);
+//     }
+// }
+// ========  
+// ********* even number **********
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []) { 
+//         Scanner sc = new Scanner(System.in);
+//         int x = sc.nextInt();
+
+//         if(x % 2 == 0) {
+//             System.out.println("its even num");
+//         } else { 
+//             System.out.println("not even ");
+//         }
+//     }
+// }
+// =======  
+                        // pattern  
+// star printing  
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         int i , j ;
+//         for (i=1; i<=5; i++)   // raws outer loop 
+//         {
+//             for (j=1; j<=i; j++) // columns  inner loop  
+//             {
+//                 System.out.print("*");
+//             } 
+//                 System.out.print("\n");
+//         }
+//     }
+// }
+// ===== 
+// import java.util.*; 
+// class Practice{
+//     public static void main(String args []){
+
+//         int i,j,k;
+
+//         for (i=1; i<=5; i++)              // rows
+//         {
+//             for(j=i; j<5; j++)            // space
+//             {
+//                 System.out.print(" ");
+//             }
+//             for(k=1; k<=i; k++)            // column 
+//             {
+//                 System.out.print("*");
+//             }
+//             System.out.println("\n");
+//         }
+//     }
+// }
+// ====== 
+                // rectangle pattern 
+
+// import java.util.*;
+
+// class Practice{
+//     public static void main(String args[]){
+//         int i , j ; 
+
+//         // outer loop
+//         for (i=1; i<=5; i++)
+//         { 
+//             // inner loop 
+//             for (j=1; j<=5; j++){
+//                 System.out.print("*");
+//             } 
+//             System.out.println(" ");
+//         } 
+//     }
+// } 
+
+            // hollow pattern 
+
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){
+//         int i ;
+//         int j ; 
+        
+//         for (i=1; i<=4; i++){
+//             for (j=1; j<=5; j++){
+//                 if(i == 1 || j == 1 || i == 4 || j == 5){
+//                     System.out.print("*");
+//                 } else {
+//                     System.out.print(" ");
+//                 }
+//             } 
+//             System.out.println();
+//         }
+
+//     }
+// }  
+            // Half pyramid pattern 
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         int i;
+//         int j;
+
+//         for(i=1; i<=4; i++){
+//             for (j=1; j<=i; j++){
+//                 System.out.print("*");
+//             } 
+//             System.out.println(" ");
+//         }
+//     }
+// } 
+            // inverted pyramid 
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         int i;
+//         int j;
+
+//         for(i=1; i<=4; i++){
+//             for (j=4; j>=i; j--){
+//                 System.out.print("*");
+//             } 
+//             System.out.println(" ");
+//         }
+//     }
+// } 
+
