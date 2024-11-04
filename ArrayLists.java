@@ -2017,7 +2017,7 @@
 // ======================================================================
 // ======================================================================
 
-// //  ArrayLists Concept 
+// //  ArrayLists Concept :
 // prints no git 
 // import java.util.*;
 
@@ -2036,7 +2036,8 @@
 //         }
 //     }
 // }
-// ======== 
+// ========  
+
 // import java.util.ArrayList;
 // import java.util.Collections;
 
