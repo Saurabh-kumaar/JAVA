@@ -833,4 +833,32 @@
 //         System.out.println(type);
 //     }
 // }
-// ====== 
+// ======  
+                    // use ternary operator 
+// import java.util.*; 
+// public class Practice{
+//     public static void main(String args []){
+//         int marks = 32;
+
+//         String type = (marks >= 33 ) ? "pass" : "fail";
+//         System.out.println(type);
+//     }
+// }
+// ======  
+                // switch Statement  
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []){
+//         int number = 2 ;
+//         switch (number) {
+//             case 1 : System.out.println("java"); 
+//             break ;
+//             case 2 : System.out.println("dsa"); 
+//             break ;
+//             case 3 : System.out.println("web development"); 
+//             break ;
+//             default : System.out.println("nothing");
+//         }
+//     }
+// }
+// ===== 
