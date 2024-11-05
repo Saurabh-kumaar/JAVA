@@ -741,4 +741,84 @@
 //             System.out.println("adult nhi hai");
 //         }
 //     }
+// } 
+// ====== 
+            // find largest value of 2 
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){ 
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         if ( a >= b){
+//             System.out.println("a is largest value of 2");
+//         } 
+//         else {
+//             System.out.println("b is largest value of 2");
+//         }
+//     }
 // }
+// ======   else if statements 
+
+// import java.util.*;
+// public class Practice {
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int age = sc.nextInt();
+            
+
+//         if( age >= 18){
+//             System.out.println("adult");
+//         } 
+//         else if(age >  13 && age < 18) {
+//             System.out.println("teenager");
+//         } 
+//         else {
+//             System.out.println("bhot chhotta hai ");
+//         }
+//     }  
+// } 
+// ======= 
+                // Income tax calculator 
+
+// import java.util.*;
+
+// public class Practice {
+//     public static void main(String args[]){ 
+//         Scanner sc = new Scanner(System.in);
+//         int income = sc.nextInt();
+//         int tax = sc.nextInt();
+
+//         if ( income <= 500000 ) {
+//             tax = 0;
+//          } 
+//         else if (income >= 500000 && income < 1000000) {
+//             tax = (int) (income * 0.2);
+//          } 
+//         else {
+//             tax = (int) (income * 0.3);
+//          } 
+//          System.out.println("your tax is : " + tax);
+//     }
+// } 
+// ====== 
+                // find biggest value 
+// import java.util.*;
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         int a = 1, b = 3, c = 6; 
+
+//         if( (a >= b) && (a >= c)) {
+//             System.out.println(" a is biggest number");
+//         } 
+//         else if ( b >= c ){
+//             System.out.println("b is biggest number");
+//         } 
+//         else {
+//             System.out.println("c is biggest number");
+//         }
+//     }
+// } 
+// ====== 
