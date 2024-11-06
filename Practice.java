@@ -862,3 +862,140 @@
 //     }
 // }
 // ===== 
+// import java.util.*;
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter a :");
+//         int a = sc.nextInt();
+//         System.out.println("enter b : ");
+//         int b = sc.nextInt(); 
+//         System.out.println("enter operator : ");
+//         char operator = sc.next().charAt(0);
+ 
+//         switch (operator) {
+//             case '+' : System.out.println(a+b);
+//                         break ;
+//             case '+' : System.out.println(a-b);
+//                         break ;
+//             case '+' : System.out.println(a*b);
+//                         break ;
+//             case '+' : System.out.println(a/b);
+//                         break ;
+//             case '+' : System.out.println(a%b);
+//                         break ;
+//             default : System.out.println("wrong operator");
+
+//         }
+//     }
+// } 
+// ==================================================================== 
+//  write a java program to get s number from the user and print whether it is 
+//  positive or negative 
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+
+//         if( number > 0){
+//             System.out.println("positive");
+//         } 
+//         else {
+//             System.out.println("negative");
+//         }
+//     }
+// }
+// =====  
+// its you have fever when your temp is above 100.
+// public class Practice {
+//     public static void main(String args []){
+//         double temp = 103.4;
+//         if( temp > 100){
+//             System.out.println("i have fever");
+//         } else {
+//             System.out.println("i have not fever");
+//         }
+//     }
+// } 
+// ====== 
+// write a java program to input week number (1-7) and point day of 
+// week name using switch case.  
+
+// import java.util.*;
+// public class Practice {
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter week nunber (1-7): "); 
+//         int week = sc.nextInt();
+
+//         switch (week) {
+//             case 1:
+//             System.out.println("Monday"); 
+//             break;
+//             case 2 :
+//             System.out.println("Tuesday"); 
+//             break;
+//             case 3:
+//             System.out.println("wednesdsy");
+//             break;
+//             case 4:
+//             System.out.println("thursday");
+//             break;
+//             case 5:
+//             System.out.println("Friday");
+//             break;
+//             case 6:
+//             System.out.println("Saturaday");
+//             break;
+//             case 7:
+//             System.out.println("Sunday");
+//             break;
+//             default:
+//             System.out.println("invalid input! please enter week number 1-7.");
+//         }
+//     }
+// }
+// ====== 
+// public class Practice {
+//     public static void main(String arags []){
+//         int a = 23, b =20;
+//         boolean x = (a < b ) ? true : false ;
+//         int y = ( a > b ) ? a : b ;  
+//         System.out.println(y);
+//     } 
+// } 
+// ======  
+
+// import java.util.*;
+// public class Practice{
+//     public static void main(String args []) {
+//         Scanner sc = new Scanner(System.in); 
+//         int number = sc.nextInt();
+
+//         switch(number) {
+//             case 1 : System.out.println("hello");
+//             break ;
+
+//             case 2 : System.out.println("namste");
+//             break ;
+
+//             case 3 : System.out.println("kaise ho ap sab ");
+//             break;
+
+//             case 4 : System.out.println(" thik hai ji");
+//             break;
+
+//             default : System.out.println(" nothing");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
