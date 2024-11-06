@@ -993,7 +993,7 @@
 // }
 // ======  
                     // find month name the use of switch 
-                    
+
 // import java.util.*;
 
 // class Practice {
@@ -1042,4 +1042,19 @@
 //             default : System.out.println("please write month number?");
 //         }
 //     }
-// }
+// } 
+// ======= 
+
+// import java.util.*; 
+
+// public class Practice {
+//     public static void main(String args []) {
+//         Scanner sc = new Scanner( System.in) ; 
+//         System.out.println("write num please ");
+//         int num = sc.nextInt();
+
+//          String type = (num % 2 == 0 ) ?  "even" : "odd" ;
+//         System.out.println(type );
+//     }
+// } 
+// ====== 
