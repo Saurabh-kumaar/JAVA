@@ -1059,3 +1059,98 @@
 //     }
 // } 
 // ======  
+                // loop  
+                // while loop   
+// class Practice {
+//     public static void main(String args []) {
+//         int c = 0;
+
+//         while ( c < 10) {
+//             System.out.println("hello"); 
+//             c++;
+//         }
+//         System.out.println("printed hw 10x");
+//     }
+// }
+// =====  
+// print number from 1 to 10    using while loop  
+
+// import java.util.*;
+// class Practice {
+//     public static void main(String args []) { 
+//         int c = 1;
+//         while ( c <= 10){
+//             System.out.print(c+ " "); 
+//             c++;
+//         }
+//     }
+// }
+// ====== 
+// print number from 1 to n  
+ 
+// import java.util.*; 
+
+// class Practice {
+//     public static void main(String args [] ){
+//         Scanner sc = new Scanner(System.in) ;
+//         int range = sc.nextInt();
+//         int c = 1;
+
+//         while ( c <= range) {
+//             System.out.print(c + " ");
+//             c++;
+//         }
+//         System.out.println();
+//     }
+// }
+// =======  
+// print sum of first n natural number 
+
+// import java.util.*;
+// class Practice {
+//     public static void main(String args []) {
+//         Scanner sc = new Scanner (System.in) ;
+//         int n = sc.nextInt(); 
+//         int sum = 0;
+
+//         int i=1;
+//         while(i <=n){
+//             sum +=i;
+//             i++; 
+//         }
+//         System.out.println(sum);
+//     }
+// }
+// ====== 
+            // for loop 
+            // sum of first natural number 
+
+// import java.util.*;
+
+// public class Practice {
+//     public static void main(String args []) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int sum = 0 ;
+//         int i ;
+        
+//         for( i=1; i<=n; i++){ 
+//             sum +=i;
+//             System.out.print(sum);
+//         }
+//     }
+// } 
+// =======  
+            // print square pattrn 
+// class Practice {
+//     public static void main(String args []){
+//         for ( int line=1; line <=4; line++){
+//             System.out.println("****"); 
+//         }
+//     }
+// }
+// =======  
+            // opposite number print 
+
+
+
