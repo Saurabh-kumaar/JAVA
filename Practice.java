@@ -1044,7 +1044,7 @@
 //     }
 // } 
 // =======  
-            // find odd : 
+            // find odd : even
 
 // import java.util.*; 
 
