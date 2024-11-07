@@ -1150,7 +1150,7 @@
 //     }
 // }
 // =======  
-            // reverse the given nu
+            // reverse the given numbe
 // class Practice {
 //     public static void main(String args []){
 //         int n = 235599;
