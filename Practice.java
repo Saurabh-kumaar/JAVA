@@ -1150,7 +1150,7 @@
 //     }
 // }
 // =======  
-            // reverse the given number 
+            // reverse the given number :
 // class Practice {
 //     public static void main(String args []){
 //         int n = 235599;
