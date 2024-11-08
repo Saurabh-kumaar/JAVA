@@ -1073,7 +1073,7 @@
 //     }
 // }
 // =====  
-// print number from 1 to 10    using while loop  
+// print number from 1 to 10 & using while loop  
 
 // import java.util.*;
 // class Practice {
