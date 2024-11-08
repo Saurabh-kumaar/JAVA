@@ -1086,7 +1086,7 @@
 //     }
 // }
 // ====== 
-// print number from 1 to n  
+// print number from 1 to n.
  
 // import java.util.*; 
 
