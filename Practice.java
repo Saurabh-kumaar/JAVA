@@ -1143,7 +1143,8 @@
 //         }
 //     }
 // }
-// // ======= 
+// // =======  
+                    // square pattern 
 // import java.util.*; 
 
 // public class Practice {
@@ -1163,4 +1164,5 @@
 //         }   
 //         // System.out.println("****"); 
 //     }
-// }
+// } 
+// ======== 
