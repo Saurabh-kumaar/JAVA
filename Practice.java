@@ -1207,7 +1207,7 @@
 //     }
 // }
 // ======= 
-                    // check 
+                    // check :-
 // import java.util.*;
 
 // public class Practice {
