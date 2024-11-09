@@ -1072,7 +1072,8 @@
 //         System.out.println("printed hw 10x");
 //     }
 // }
-// =====  
+// ===== 
+
 // print number from 1 to 10 & using while loop  
 
 // import java.util.*;
@@ -1086,6 +1087,7 @@
 //     }
 // }
 // ====== 
+
 // print number from 1 to n.
  
 // import java.util.*; 
@@ -1104,6 +1106,7 @@
 //     }
 // }
 // =======  
+
 // print sum of first n natural number 
 
 // import java.util.*;
@@ -1131,10 +1134,15 @@
 //     }
 // }
 // =======  
+
             // reverse the given number :-
+
+// import java.util.Scanner;
+
 // class Practice {
-//     public static void main(String args []){
-//         int n = 235599;
+//     public static void main(String args []){ 
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
 
 //         while ( n > 0) {
 //             int lastDigit = n % 10;
@@ -1143,7 +1151,8 @@
 //         }
 //     }
 // }
-// // =======  
+// // ======= 
+
                     // square pattern 
 // import java.util.*; 
 
@@ -1165,4 +1174,19 @@
 //         // System.out.println("****"); 
 //     }
 // } 
+// ========  
+                //  do while loop  
+// import java.util.*;
+
+// public class Practice{
+//     public static void main(String args []) { 
+//         int i =1;
+//         do {
+//             System.out.println("hello guys ");
+//             i++;
+//         } 
+//         while ( i<=10 );
+
+//     }
+// }
 // ======== 
