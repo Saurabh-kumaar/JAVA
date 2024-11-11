@@ -1482,7 +1482,7 @@
 //     }
 // }
 // ==========  
-                    // half pyramid 
+                    // half pyramid pattern
 // import java.util.*;
 
 // public class Practice {
