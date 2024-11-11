@@ -1317,4 +1317,76 @@
 //             default : System.out.println("invalid num");
 //         }
 //         }
+//     } 
+// ========= 
+
+                // a simple calculator 
+
+// import java.util.*;
+
+// public class Practice {
+//     public static void main (String args []) {
+//         Scanner sc = new Scanner(System.in); 
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         char operator = sc.next().charAt(0);
+
+//         switch (operator) {
+//             case'+' : System.out.println(a+b);
+//                         break;
+//             case '-' : System.out.println(a-b);
+//                         break;
+
+//             case '*' : System.out.println(a*b);
+//                         break;
+
+//             case '/' : System.out.println(a/b);
+//                         break;
+
+//             case '%' : System.out.println(a%b);
+//                         break;
+
+//             default : System.out.println("its wrong way ");
+//         }
 //     }
+// } 
+// =========  
+                    // find year is leap or not  
+// import java.util.*;
+
+// public class Practice {
+//     public static void main(String args []) {
+//         Scanner sc = new Scanner(System.in);
+//         int year = sc.nextInt();
+
+//         boolean x = (year % 4) == 0;
+//         boolean y = (year % 100) != 0;
+//         boolean z = ((year % 100 == 0 ) && ( year % 400 == 0) ) ;
+
+//         if( x && (y ||z)) {
+//             System.out.println(year + "is a leap year ");
+//         } else {
+//             System.out.println(year + " is not a leap year");
+//         }
+//     }
+// }
+// =======  
+                // print number from 1 to n 
+// import java.util.*;
+
+// public class Practice {
+//     public static void main(String args []) {
+//     Scanner sc = new Scanner(System.in);
+//     int range = sc.nextInt();
+
+//     int c = 1;
+//     while( c <= range) {
+//         System.out.print(c + " ");
+//         c++;
+//     } 
+//     System.out.println();
+// }
+// }
+// ======= 
+
