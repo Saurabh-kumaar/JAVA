@@ -1528,7 +1528,8 @@
 //         }
 //     }
 // } 
-            // triangle pyramid 
+
+            // triangle pyramid:-
 // import java.util.*; 
 
 // public class Practice {
