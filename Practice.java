@@ -1595,3 +1595,48 @@
 //         findValue();
 //     }
 // }
+                    // sum of two values 
+ 
+// import java.util.*;
+
+// public class Practice { 
+//     public static void printVal(){
+//         System.out.println("munna bhai");
+//     } 
+
+//     public static int calSum(int num1, int num2){   // formal parameters
+//         int sum = num1 + num2 ; 
+//         return sum;
+//     }
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int sum = calSum(a, b);         // arguments or actual paramrters
+//         System.out.println("sum is " + sum);
+//     }
+// } 
+// =========== 
+                // call by value 
+// import java.util.*;
+
+// public class Practice {  
+
+//     public static void swap(int a, int b){
+
+//          // swap 
+//         int temp = a ;
+//         a = b;
+//         b = temp; 
+//     }
+//     public static void main(String args []){ 
+//         // swap value exchange 
+//         int a = 4;
+//         int b = 2; 
+//         swap(a, b);
+
+//        System.out.println(a);
+//        System.out.println(b);
+
+//     }
+// }
