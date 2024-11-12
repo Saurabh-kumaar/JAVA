@@ -1657,6 +1657,29 @@
 //         int prod = multiply(19 , 10) ;
 //         System.out.println("the multiply of this num =" + prod);
 //     }
-// }
+// } 
+// ========= 
+                        // factorial of num 
+// import java.util.*;
+
+// public class Practice {  
+
+//     public static int factorial (int n){
+//         int f = 1; 
+
+//         for (int i=1; i<=n; i++){
+//             f = f * i;
+//         } 
+//         return f;
+//     }
+
+//     public static void main (String args []) { 
+//         factorial(4);
+//         System.out.println(factorial(10));
+
+//     }
+// } 
+// ======== 
+
 
 
