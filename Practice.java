@@ -1639,4 +1639,24 @@
 //        System.out.println(b);
 
 //     }
+// }  
+                // find the value of multiple num 
+// import java.util.*;
+
+// public class Practice { 
+
+//     public static int multiply (int a, int b) {
+//         int goods = a * b ;
+//         return goods ; 
+//     }
+//     public static void main(String args[]) {
+//         int a = 3 ; 
+//         int b = 5 ; 
+//         int goods = multiply(a, b);
+//         System.out.println("a * b = "+ goods);
+//         int prod = multiply(19 , 10) ;
+//         System.out.println("the multiply of this num =" + prod);
+//     }
 // }
+
+
