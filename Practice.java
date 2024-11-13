@@ -1727,7 +1727,7 @@
 //     }
 // } 
 // ========== 
-                // prime number
+                // prime number 
 // import java.util.*; 
 
 // public class Practice {
@@ -1754,6 +1754,6 @@
 //         }
 //     }
 // }
-
+// ======== 
 
 
