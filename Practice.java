@@ -1727,7 +1727,7 @@
 //     }
 // } 
 // ========== 
-
+                // prime
 // import java.util.*; 
 
 // public class Practice {
@@ -1752,7 +1752,6 @@
 //             System.out.println("n is not prime");
 //         }
 //         }
-        
 //     }
 // }
 
