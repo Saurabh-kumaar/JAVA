@@ -1841,13 +1841,14 @@
 // public class Practice {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
+//         System.out.print("enter no = ");
 //         int x = sc.nextInt();
 
 //          boolean isPrime = true;
-//         if (isPrime) {
-//             return false ;
+//         if (x % 2 == 1) {
+//             isPrime = false;
 //         } 
-//         if (x % 2 == 0) {
+//         if (isPrime) {
 //             System.out.println("it is even");
 //         } else {
 //             System.out.println("its odd num");
