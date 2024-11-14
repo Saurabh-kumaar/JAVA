@@ -1836,7 +1836,7 @@
 //     }
 // }  
 // ===========  
-                // find even 
+                // find even or 
 // import java.util.*;
 
 // public class Practice {
