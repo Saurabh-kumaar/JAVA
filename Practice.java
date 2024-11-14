@@ -1205,7 +1205,7 @@
 //         System.out.println("i am out of the loop ");
 //     }
 // }
-// ======= 
+// ========
                     // check :-
 // import java.util.*;
 
@@ -1835,7 +1835,25 @@
 //         System.out.println("avg of given numbers is =" + avg);
 //     }
 // }  
+// =========== 
+// import java.util.*;
 
+// public class Practice {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int x = sc.nextInt();
+
+//          boolean isPrime = true;
+//         if (isPrime) {
+//             return false ;
+//         } 
+//         if (x % 2 == 0) {
+//             System.out.println("it is even");
+//         } else {
+//             System.out.println("its odd num");
+//         }
+//     }
+// }
 
 
  
