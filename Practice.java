@@ -1730,12 +1730,13 @@
                 // prime number 
 // import java.util.*; 
 
-// public class Practice {
+// public class Practice { 
+
 //     public static void main(String args[]) { 
 //         Scanner sc = new Scanner(System.in);
-//         int n = sc.nextInt();
+//         int n = sc.nextInt(); 
 
-//         if(n == 2){
+//          if(n == 2){
 //             System.out.println("n is prime");
 //         } else {
 
@@ -1754,6 +1755,31 @@
 //         }
 //     }
 // }
-// ======== 
+// // ========   
+            // find binary to decimal  
 
+// import java.util.*; 
+// public class Practice {  
 
+//     public static void binTodec(int binNum) { 
+//         int myNum = binNum;
+//         int pow = 0;
+//         int decNum = 0;
+
+//         while (binNum > 0) {
+//             int lastDigit = binNum % 10; 
+//             decNum = decNum + (lastDigit * (int) Math.pow(2, pow));
+
+//             pow++;
+//             binNum = binNum/10;
+//         } 
+//         System.out.println("decimal of " + myNum+ " = " + decNum);
+//     }
+//     public static void main(String args []) { 
+//         binTodec(10100011);
+//     }
+// } 
+// ======= 
+
+ 
+ 
