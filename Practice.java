@@ -1836,7 +1836,7 @@
 //     }
 // }  
 // ===========  
-                // find even or 
+                // find even or odd 
 // import java.util.*;
 
 // public class Practice {
