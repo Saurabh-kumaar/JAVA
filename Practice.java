@@ -1779,4 +1779,67 @@
 //         binTodec(1011);
 //     }
 // } 
-// ========
+// ======== 
+                // decimal to binary 
+
+// import java.util.*; 
+
+// public class Practice { 
+
+//     public static void decToBin(int n){ 
+//        int  myNum = n;
+//         int pow = 0;
+//         int binNum = 0;
+
+//         while (n >0){
+//             int rem = n % 2 ;
+//             binNum = binNum + (rem * (int)Math.pow(10,pow));
+
+//             pow++; 
+//             n = n/2;
+//         } 
+//         System.out.println("binary form of " + myNum + " = "+ binNum);
+
+//     }
+
+//     public static void main(String[] args) { 
+//         decToBin(7);
+//     }
+// } 
+//                 // scope - mathod scope 
+// public class Practice {
+//      int n = 4 // its not work 
+//     public static void main (String args[]){ 
+
+//         int n = 30+4; 
+//         System.out.println(n);  
+//       }
+// }      
+        // find avg of numbers:-
+
+// import java.util.*; 
+
+// public class Practice {
+
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in); 
+//         System.out.print("a = ");
+//         int a = sc.nextInt(); 
+//         System.out.print("b = ");
+//         int b = sc.nextInt(); 
+//         System.out.print("c = ");
+//         int c = sc.nextInt();
+
+
+//         int avg = (a + b + c)/3;
+//         System.out.println("avg of given numbers is =" + avg);
+//     }
+// }  
+
+
+
+ 
+
+
+
+
