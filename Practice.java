@@ -1776,10 +1776,7 @@
 //         System.out.println("decimal of " + myNum+ " = " + decNum);
 //     }
 //     public static void main(String args []) { 
-//         binTodec(10100011);
+//         binTodec(1011);
 //     }
 // } 
-// ======= 
-
- 
- 
+// ========
