@@ -1835,7 +1835,8 @@
 //         System.out.println("avg of given numbers is =" + avg);
 //     }
 // }  
-// =========== 
+// ===========  
+                // find even 
 // import java.util.*;
 
 // public class Practice {
