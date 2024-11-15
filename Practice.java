@@ -1895,7 +1895,7 @@
 //      }
 // } 
 // ========= 
-                // INVERTED & ROTATED HALF-PYRAMID 
+                //  INVERTED & ROTATED HALF-PYRAMID .
 //  import java.util.*;
 
 // public class Practice {
