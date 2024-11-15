@@ -1873,3 +1873,47 @@
 //             }
 //         }
 //      }
+// ======= 
+                    // HOLLOW Rectangle PATTERN 
+
+// import java.util.*; 
+
+// public class Practice {
+
+//      public static void main(String args []){
+        
+//         for(int i=1; i<=4; i++){
+//             for(int j=1; j<=7; j++){
+//                 if(i == 1 || j == 1 || i == 4 || j ==7){
+//                     System.out.print("* ");
+//                 } else { 
+//                 System.out.print("  ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//      }
+// } 
+// ========= 
+                // INVERTED & ROTATED HALF-PYRAMID 
+//  import java.util.*;
+
+// public class Practice {
+
+//     public static void main(String args []){ 
+//         Scanner sc = new Scanner(System.in);
+//         int n = 4;
+// //                OUTER LOOP 
+//         for(int i=1; i<=4; i++){
+//             // SPACES 
+//             for(int J=4; J>i; J--){
+//                 System.out.print(" ");
+//             }
+//             // STARS 
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();   
+//         } 
+//     }
+// } 
