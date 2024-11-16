@@ -1963,7 +1963,7 @@
 //         for(int i=)
 //     }
 // } 
-                        //pr
+                        //print
 // import java.util.*; 
 
 // public class Practice {
