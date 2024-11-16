@@ -1963,7 +1963,7 @@
 //         for(int i=)
 //     }
 // } 
-                        //print the num
+                        //print the numb
 // import java.util.*; 
 
 // public class Practice {
