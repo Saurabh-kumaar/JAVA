@@ -2137,7 +2137,29 @@
 
 //     public static void main(String args[]){
 //         int n = 5;
-       
+//         for(int i=1; i<=n; i++){
+//             // step 1. print spaces 
+//             for (int j = 0; j <(n-i); j++){
+//                 System.out.print(" ");
+//             }
+
+//             // step 2. print numbers 
+//             int number = 1;
+//             boolean increasing = true ; 
+//             while (number>0) {
+//                 System.out.print(number);
+//                 if(number == i){
+//                     increasing = false;
+//                 } 
+//                 if(increasing == true) {
+//                     number++;
+//                 } else {
+//                     number--;
+//                 }    
+//             }
+//             System.out.println();
+//         } 
 //     }
 // } 
+
 
