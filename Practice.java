@@ -1113,6 +1113,7 @@
 // class Practice {
 //     public static void main(String args []) {
 //         Scanner sc = new Scanner (System.in) ;
+//         System.out.print("enter the digit = ");
 //         int n = sc.nextInt(); 
 //         int sum = 0;
 
@@ -1125,7 +1126,8 @@
 //     }
 // }
 // =======  
-            // print square pattrn 
+            // print square pattern
+
 // class Practice {
 //     public static void main(String args []){
 //         for ( int line=1; line <=4; line++){
@@ -1824,6 +1826,7 @@
 // }      
 // ==================================================================
         // find avg of numbers:-
+        
 
 // import java.util.*; 
 
@@ -1846,6 +1849,7 @@
 // ===========
 // ==================================================================  
                 // find even or odd 
+
 // import java.util.*;
 
 // public class Practice {
@@ -1867,6 +1871,7 @@
 // } 
 // ===================================================================
                 // check reverse 
+
 // import java.util.*; 
 
 // public class Practice {
@@ -1886,6 +1891,7 @@
 // ======= 
 // ====================================================================
                     // HOLLOW Rectangle PATTERN 
+
 
 // import java.util.*; 
 
@@ -1908,6 +1914,8 @@
 // ========= 
 // ==================================================================
                 //  INVERTED & ROTATED HALF-PYRAMID .
+
+
 //  import java.util.*;
 
 // public class Practice {
@@ -1932,12 +1940,13 @@
 // ==================================================================
 // ==================================================================
                 // count number pattern 
+
 // import java.util.*; 
 
 // public class Practice {
 
 //     public static void main(String args []) {
-//         int n = 5; 
+//         int n = 3; 
 //         int counter = 1;
 //         for(int i=1; i<=n; i++){
 //             for(int j=1; j<=i; j++){
@@ -1950,7 +1959,7 @@
 // }
 // =========
 // ==================================================================
-            // print 01 line pattern 
+            // print 0 1 line pattern 
 // import java.util.*; 
 
 // public class Practice {
@@ -2072,6 +2081,9 @@
 // }
 // ==================================================================
 // ==================================================================
+
+                    //  hollow rhombus 
+
 // import java.util.*; 
 
 // public class Practice {
@@ -2085,6 +2097,7 @@
 //             } 
 
 //             // hollow rectangle - stars 
+
 //             for(int j=1; j<=n; j++){
 //                 if(i == 1 || i == n || j == 1 || j == n){
 //                     System.out.print("*");
@@ -2094,5 +2107,34 @@
 //             }
 //             System.out.println();
 //         }
+//     }
+// } 
+// =====================================================================
+// =====================================================================
+
+
+// import java.util.*; 
+
+//  public class Practice {
+
+//     public static void main(String args []){ 
+//          int n = 5; 
+//          for(int i=1; i<=n; i++){
+//             for(int j=1; j<=i; j++){ 
+//                 System.out.print("*");
+
+//             }    System.out.println(" ");
+//          } 
+//         System.out.println();
+//     }
+// }
+
+// import java.util.*;
+
+// public class Practice {
+
+//     public static void main(String args[]){
+//         int n = 5;
+       
 //     }
 // }
