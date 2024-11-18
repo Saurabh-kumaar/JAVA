@@ -2201,3 +2201,24 @@
 // }
 // ====================================================================
 // ====================================================================
+                // call by refrence 
+
+// import java.util.*; 
+
+// public class Practice {
+//     public static void update (int marks []) {
+//         for (int i=0; i<marks.length; i++){
+//             marks[i] = marks[i] + 2;   // add value in given value 
+//         }
+//     }
+//     public static void main(String args []){
+//         int marks [] = { 78 , 68 , 79 };
+//         update(marks);
+
+//         // print our marks 
+//         for(int i=0; i<marks.length; i++){
+//             System.out.println(marks[i]+" ");
+//         }
+//         System.out.println();
+//     }
+// }
