@@ -2243,7 +2243,7 @@
 
 //     public static void main(String args []){
 //         int numbers [] = {2, 4, 6, 8, 10, 12,14};
-//         int key =10;
+//         int key =8;
 
 //         int index = linear(numbers, key);
 //         System.out.println(index == -1 ? "not found" : "key index " + index);
@@ -2304,7 +2304,380 @@
 
 //     public static void main(String args []) {
 //         int numbers [] = { 2, 4, 6, 8, 10, 12, 14};
-//         int key = 6;
-//         System.out.println("index for key is : " + binarySearch(numbers, key));
+//         int key = 10;
+//         System.out.println("index for key  is : " + binarySearch(numbers, key));
 //     }
 // }
+// ===================================================================
+// ===================================================================
+
+                        // reverse 
+
+// import java.util.*; 
+
+// public class Practice {
+
+//     public static void reverse (int numbers[]) {
+//         int first = 0, last = numbers.length-1;
+
+//         while(first < last) {
+//             int temp = numbers[last];
+//             numbers[last] = numbers[first];
+//             numbers[first] = temp;
+
+//             first++;
+//             last--;
+//         }
+//     }
+// public static void main(String args []) {
+//     int numbers [] = {2, 4, 6, 8, 10};
+
+//     reverse(numbers);
+
+//     for(int i=0; i<numbers.length; i++){
+//         System.out.print(numbers[i]+ " ");
+//     }
+//     System.out.println();
+//     }
+// }
+// =========================================================
+// =========================================================
+                        // half butterfly 
+
+// import java.util.*; 
+
+// public class Practice { 
+
+//     public static void pyramid(int n) {
+//         for(int i=1; i<=n; i++){
+
+//              for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//             } 
+//             for(int j=1; j<=2*(n-i); j++){
+//                 System.out.print(" ");
+//             }
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+        
+//     }
+
+//     public static void main(String args []) { 
+//         pyramid(5);
+        
+//     }
+// }
+ 
+// ========================================================== 
+// ========================================================== 
+
+                        // print row by row starn ( n-1) 
+
+// import java.util.*; 
+
+// public class Practice {
+
+//     public static void main(String args []) {
+//         int n = 5; 
+
+//         for(int i=1; i<=n; i++){
+//             for(int j=1; j<=i; j++){
+//                 System.out.print("*");
+//             } 
+//             System.out.println();
+//         }  
+
+//         for(int i=1; i<=n; i++){
+//             for(int j = n; j >= i; j--){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// } 
+
+// ========================================================== 
+// ========================================================== 
+
+// import java.util.*;
+
+// public class Practice {
+
+//     public static void main(String[] args) {
+//         int n = 5;
+
+//         for (int i = 1; i <= 2 * n; i++) {
+//             if (i <= n) { 
+//                 for (int j = 1; j <= i; j++) {
+//                     System.out.print("*");
+//                 }
+//             } else {
+//                 for (int j = 1; j <= 2 * n - i; j++) {
+//                     System.out.print("*");
+//                 }
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+// ========================================================
+// ========================================================
+
+                                // odd & even 
+
+// import java.util.*; 
+
+// public class Practice {
+
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.print(" input the value = ");
+//             int x = sc.nextInt(); 
+
+//             boolean isPrime = true; 
+//             if( x % 2 == 1 ) {
+//                 isPrime = false ; 
+//             } 
+
+//             if(isPrime){
+//                 System.out.print(" it is even ");
+//                 } else {
+//                     System.out.print("odd");
+//                 } 
+//             }
+//         } 
+// ===================================================== 
+// =====================================================
+
+
+// import java.util.*; 
+// public class Practice {
+//     public static void main(String args[]) {
+//             int n = 5;
+
+//             for(int i=1; i<=n; i++){
+//                 for(int j=1; j<=n-i; j++ ){    // for space printing 
+//                     System.out.print(" ");
+//                 } 
+
+//                 int num = 1; 
+//                 boolean increasing = true; 
+//                 while ( num > 0){
+//                     System.out.print(num);
+                
+
+//                 if( num == i) {
+//                     increasing = false;
+//                 } 
+//                 if(increasing == true){
+//                     num++ ; 
+//                 } else { 
+//                     num--;
+//                 } 
+//             }
+//             // for(int j=1; j<(2*i); j++) {
+//             //     System.out.print(num);
+
+//             //     if(j < i) {
+//             //         num++;
+//             //     } else {
+//             //         num--;
+//             //     }
+//             // }
+//             System.out.println();   
+//         }
+//     }  
+// }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
