@@ -1,4 +1,1 @@
-
-                // if( num == i) {
-                //     increasing = false;
-                // } 
+numbers
