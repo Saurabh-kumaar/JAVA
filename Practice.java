@@ -2585,7 +2585,7 @@
 
 // public class Practice {
 
-//     public static void main(String args []){
+//     public static void main(String args []) {
 //         int n  = 2; 
 //         Scanner sc= new Scanner(System.in);
 //         int arr [] = new int[n];
@@ -2601,7 +2601,14 @@
 // ===================================================================
 // ===================================================================
 
+import java.util.*; 
 
+public class Practice {
+
+    public static void main(String args[]) {
+        int numbers = 
+    }
+}
 
 
 
