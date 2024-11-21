@@ -2280,6 +2280,8 @@
 // ===================================================================
 // ===================================================================
 
+                        // binarySearch 
+
 // import java.util.*; 
 
 // public class Practice {
@@ -2307,7 +2309,7 @@
 //         int key = 10;
 //         System.out.println("index for key  is : " + binarySearch(numbers, key));
 //     }
-// }
+// } 
 // ===================================================================
 // ===================================================================
 
@@ -2545,7 +2547,7 @@
 //     }
 
 //     public static void main(String args []) {
-//         int numbers [] = { 3, 5, 7, 9, 11};
+//         int numbers [] = { 3, 8, 7, 9, 11};
 //         subArray(numbers);
 //     }
 // }
@@ -2577,26 +2579,27 @@
 // ====================================================================
 // ====================================================================
 
+                    // find arry till n. 
+                    
+// import java.util.*; 
 
+// public class Practice {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//     public static void main(String args []){
+//         int n  = 2; 
+//         Scanner sc= new Scanner(System.in);
+//         int arr [] = new int[n];
+//         for(int i=0; i<n; i++){
+//             arr[i] = sc.nextInt();
+//         }
+//         System.out.println("array displayed");
+//         for(int i=0; i<arr.length; i++){
+//             System.out.println(arr[i] + " ");
+//         }
+//     }
+// }
+// ===================================================================
+// ===================================================================
 
 
 
