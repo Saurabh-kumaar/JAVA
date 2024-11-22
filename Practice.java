@@ -2601,15 +2601,106 @@
 // ===================================================================
 // ===================================================================
 
-import java.util.*; 
+                        // subArray  & reverse :- 
 
-public class Practice {
+// import java.util.*; 
 
-    public static void main(String args[]) {
-        int numbers = 
-    }
-}
+// public class Practice {
 
+//     public static void main(String args[]) {
+        
+//         int arr[] = { 2,3,5 ,9,6};
+//         int n = 5;  
+//  //   ==========================================
+//         int rev [] = new int[n] ; 
+//         for(int i=0; i<n; i++){  // this loop use reversee
+                                
+//             rev[n-1-i] = arr[i]; 
+//          } 
+
+//          for(int i=0; i<n; i++) {
+//             System.out.print(rev[i] +" "); 
+//          }
+// //   =========================================
+
+//         for(int i=0; i<=n; i++){
+//             for(int j=i; j<n; j++){
+//                 for(int k=i; k<=j; k++){
+//                     System.out.print(arr[k] + " ");
+//                 }
+//                 System.out.println();
+//             }
+//         }  
+//     }
+// }
+// =====================================================================
+//=====================================================================
+
+                        // subArray (brute force)
+// import java.util.*;
+// public class Practice {  
+
+//     public static void maxsubArray(int arr[]) { 
+//         int currSum = 0;
+//         int maxSum = Integer.MIN_VALUE; 
+
+
+//         for(int i=0; i<arr.length; i++){
+//             int start = i;
+//             for(int j=i; j<arr.length; j++){
+//                 int end = j; 
+//                 currSum = 0;
+//                 for(int k=i; k<=end; k++){
+                        // subArray 
+//                     currSum += arr[k];
+//                 }
+//                 System.out.println(currSum);
+//                 if(maxSum < currSum){
+//                     maxSum = currSum;
+//                 }
+//              }
+//          }
+//          System.out.println("max sum = " + maxSum);
+//     }
+
+//         public static void main(String args[]) {
+            
+//             int arr[] = { 1, -2, 6, -1, 3};
+//             maxsubArray(arr);  
+//         }
+//     }
+// ============================================================
+// ============================================================= 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
