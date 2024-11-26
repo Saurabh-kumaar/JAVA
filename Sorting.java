@@ -1,4 +1,10 @@
-//  import java.util.*; 
+
+                // SORTING 
+
+            // Bubble sort 
+
+
+// import java.util.*; 
 
 //  public class Sorting {
     
@@ -16,13 +22,12 @@
 //             }
 //         }
 //     } 
-
+//                 // print array 
 //     public static void printArr(int arr[]){
 //         for(int i=0; i<arr.length; i++){
 //             System.out.print(arr[i] + " ");
 //         }
 //         System.out.println();
-
 //     }
  
 //     public static void main(String args []) {
@@ -32,3 +37,197 @@
 //         printArr(arr);
 //     }
 //  }
+
+// ============================================================================
+// ============================================================================
+
+                    // selection sort 
+
+// import java.util.*; 
+
+// public class Sorting { 
+
+//     public static void selectionSort(int arr[]){
+//         for(int i=0; i<arr.length-1; i++){ 
+
+//             int minPos = i;
+//             for(int j=i+1; j<arr.length; j++){
+//                 if(arr[minPos] < arr[j]) {
+//                     minPos = j;
+//                 }
+//             }
+//             // swap 
+//             int temp = arr[minPos];
+//             arr[minPos] = arr[i];
+//             arr[i] = temp;
+//         }
+//     } 
+//                 // for printing 
+//     public static void printArr(int arr[]){
+//                 for(int i=0; i<arr.length; i++){
+//                     System.out.print(arr[i] + " ");
+//                 }
+//                 System.out.println();
+//             }
+
+//     public static void main (String args []){
+//         int arr [] = {1,5,6,2,9};
+
+//             selectionSort(arr);
+//             printArr(arr);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
