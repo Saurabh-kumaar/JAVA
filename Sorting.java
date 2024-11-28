@@ -205,7 +205,7 @@ public class Sorting {
         int arr [] = { 1, 3, 5, 7, 3,1,4,};
 
         countingSort(arr);
-        printArray(arr);
+        // printArray(arr);
     // }
 // }
 
