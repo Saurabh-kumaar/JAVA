@@ -219,7 +219,7 @@
 import java.util.*; 
 public class Sorting {
 
-    // bubble sort
+    // bubble sort  .
 
     public static void bubbleSort(int arr []){
         for(int i=0; i<arr.length-1; i++){
@@ -263,10 +263,10 @@ public class Sorting {
     selectionSort(arr);
 
     // bubbleSort(arr);
-    
+
     printArr(arr);
-    }
-}
+    } 
+} 
 
 
 
