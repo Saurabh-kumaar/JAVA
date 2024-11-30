@@ -2039,11 +2039,11 @@
 // ========  
 
 // import java.util.ArrayList;
-// import java.util.Collections;
+// // import java.util.Collections;
 
 // class ArrayLists {
 //     public static void main (String args []){
-//         ArrayList<Integer> list = new ArrayList <Integer>(); 
+//         ArrayList<Integer>list = new ArrayList <Integer>(); 
 
 //         //add elements 
 //         list.add(0);
@@ -2080,8 +2080,8 @@
 //         System.out.println(); 
 
 //         // sorting 
-//         Collections.sort(list);
-//         System.out.println(list);
+//         // Collections.sort(list);
+//         // System.out.println(list);
 //     }
 // } 
 // ==================================================================== 
