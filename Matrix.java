@@ -43,7 +43,7 @@
 // }
 // =================================================================================== 
 
-                            // searching new 
+                            // searching matrix location 
 
 // import java.util.*;
 // public class Matrix { 
