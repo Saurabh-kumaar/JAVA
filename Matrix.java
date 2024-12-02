@@ -95,7 +95,7 @@
 // =============================================================================
 // =============================================================================
  
-
+                    // Spiral 
 
 // import java.util.*; 
 
@@ -185,6 +185,34 @@
 //         System.out.println("Diagonal sum :" + sum);
 //     }
 // }
+
+// =======================================================================================
+// ======================================================================================= 
+
+import java.util.*; 
+
+public class Matrix { 
+
+    // public static int search(int matrix[][] , int keys){
+
+    public static void main(String args[]){
+        int array [][] = {{4,7,8},{8,8,7}};
+
+        int countof7 = 0; 
+
+        for(int i=0; a<arra.length; i++){
+            for(int j=0; j<array[0].length; j++){
+
+                if(array[i][j] == 7);
+                countof7++;
+            }
+        }
+    }
+            
+
+        sun.font("count of 7 is : "countof7);
+    }
+
 
 
 
