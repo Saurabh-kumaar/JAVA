@@ -210,7 +210,7 @@ public class Matrix {
     }
             
 
-        sun.font("count of 7 is : "countof7);
+        System.out.println("count of 7 is : "countof7);
     }
 
 
