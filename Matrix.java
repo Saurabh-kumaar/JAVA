@@ -217,7 +217,22 @@
 // =======================================================================================
 
 // ques:- 2 
+// sum of second row 
 
+// public class Matrix {
+
+//     public static void main(String args []){
+
+//         int array [][] = { {1, 4, 9},{11, 4, 3},{2, 2, 3}};
+//         int sum = 0; 
+
+//         // 2nd row sum 
+//         for(int i=0; i<array[0].length; i++){
+//             sum += array[1][i];
+//         }
+//         System.out.println("sum is : " + sum);
+//     }
+// }
 
 
 
