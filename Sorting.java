@@ -271,6 +271,8 @@
 // ======================================================================================================================== 
 // ========================================================================================================================
 
+
+
 // Live :- 
 
 // import java.util.*; 
@@ -279,6 +281,7 @@
 
 //     public static void bubbleSort(int array []){
 //         // imput 
+//             int n = array.length; 
 //         for(int i=0; i<array.length-1; i++){
 //             for(int j=0; j<array.length-1-i; j++){ 
 //                 if(array[j] > array[j+1]){
@@ -309,6 +312,47 @@
 //     }
 // }
 
+
+// ===============================================================================================
+// ===============================================================================================
+
+
+import java.util.*; 
+
+public class Sorting { 
+
+    public static int selectionSort(int arr[]){
+        int n = arr.length;
+
+        for(int i=0; i<n-1; i++){
+            int minIndex = i;
+            for(int j=i+1; j<n; j++){
+                if(arr[j] > arr[minIndex]){
+                }
+            }
+               minIndex = j; 
+        
+
+            int temp = arr[i];
+            arr[i] = arr[minIndex]; 
+            arr[minIndex] = temp; 
+        }
+    } 
+
+    public static void printArr(int arr[]){
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        } 
+    }
+
+    public static void main(String args []){
+        int arr[] = { 4,6,2,8,1}; 
+        // int n = arr.length; 
+
+        selectionSort(arr);
+        printArr(arr);
+    }
+}
 
 
 
@@ -420,21 +464,21 @@
 
 //     // selection sort code 
 
-//     public static void selectionSort(int arr[]){
-//         for(int i=0; i<arr.length-1; i++){
-//             int minPos = i;
-//             for(int j=i+1; j<arr.length; j++){
-//                 if(arr[minPos] > arr[j]){
-//                     minPos = j;
-//                 }
-//             } 
-//             // swap 
+//     // public static void selectionSort(int arr[]){
+//     //     for(int i=0; i<arr.length-1; i++){
+//     //         int minPos = i;
+//     //         for(int j=i+1; j<arr.length; j++){
+//     //             if(arr[minPos] > arr[j]){
+//     //                 minPos = j;
+//     //             }
+//     //         } 
+//     //         // swap 
 
-//             int temp = arr[minPos];
-//             arr[minPos] = arr[i];
-//             arr[i]  = temp;
-//         }
-//     }
+//     //         int temp = arr[minPos];
+//     //         arr[minPos] = arr[i];
+//     //         arr[i]  = temp;
+//     //     }
+//     // }
 
 //     // for printing everyone sort 
 
@@ -442,21 +486,20 @@
 //         for(int i=0; i<arr.length; i++){
 //             System.out.print(arr[i] + " ");
 //         }
-//         System.out.println();
-//     }
+//      }
 
 
 //     public static void main(String args []){
 //         int arr [] = {8,3,6,2,7}; 
 
-//         // bubbleSort(arr);
-//         selectionSort(arr);
+//         bubbleSort(arr);
+//         // selectionSort(arr);
 //         printArr(arr);
 //     }
 // } 
 
-// ===============================================================================
-// ===============================================================================
+// // ===============================================================================
+// // ===============================================================================
 
 
 
