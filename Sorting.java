@@ -216,62 +216,98 @@
 
 
 
-import java.util.*; 
-public class Sorting {
+// import java.util.*; 
+// public class Sorting {
 
-    // bubble sort  ...
+//     // bubble sort  ...
 
-    public static void bubbleSort(int arr []){
-        for(int i=0; i<arr.length-1; i++){
-            for(int j=0; j<arr.length-1-i; j++){
-                if(arr[j] < arr[j+1]){
+//     public static void bubbleSort(int arr []){
+//         for(int i=0; i<arr.length-1; i++){
+//             for(int j=0; j<arr.length-1-i; j++){
+//                 if(arr[j] < arr[j+1]){
 
-            // swap 
-            int temp = arr[j];
-            arr[j] = arr[j+1];
-            arr[j+1] = temp ;
-            }
-        }
-    }
-}
-        // selection sort  ...
+//             // swap 
+//             int temp = arr[j];
+//             arr[j] = arr[j+1];
+//             arr[j+1] = temp ;
+//             }
+//         }
+//     }
+// }
+//         // selection sort  ...
          
-    public static void selectionSort(int arr[]){
-        for(int i=0; i<arr.length-1; i++){
-            int minPos = i;
-            for(int j=0; j<arr.length; j++){
-                if(arr[minPos] > arr[j]){
-                    minPos = j;
-                }
-            }
-            // swap 
-            int temp = arr[minPos];
-            arr[minPos] = arr[i];
-            arr[i] = temp;
-        }
-    }
+//     public static void selectionSort(int arr[]){
+//         for(int i=0; i<arr.length-1; i++){
+//             int minPos = i;
+//             for(int j=0; j<arr.length; j++){
+//                 if(arr[minPos] > arr[j]){
+//                     minPos = j;
+//                 }
+//             }
+//             // swap 
+//             int temp = arr[minPos];
+//             arr[minPos] = arr[i];
+//             arr[i] = temp;
+//         }
+//     }
 
-    public static void printArr(int arr[]){
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println();
-    }
+//     public static void printArr(int arr[]){
+//         for(int i=0; i<arr.length; i++){
+//             System.out.print(arr[i] + " ");
+//         }
+//         System.out.println();
+//     }
 
- public static void main(String args []) {
-    int arr [] = { 3,6,2,1,8,7,4,5,3,1};
-    selectionSort(arr);
+//  public static void main(String args []) {
+//     int arr [] = { 3,6,2,1,8,7,4,5,3,1};
+//     // selectionSort(arr);
 
-    // bubbleSort(arr);
+//     bubbleSort(arr);
 
-    printArr(arr);
-    } 
-} 
+//     printArr(arr);
+//     } 
+// } 
+
+// ======================================================================================================================== 
+// ========================================================================================================================
+
+// Live :- 
+
+// import java.util.*; 
+
+// public class Sorting{ 
+
+//     public static void bubbleSort(int array []){
+//         // imput 
+//         for(int i=0; i<array.length-1; i++){
+//             for(int j=0; j<array.length-1-i; j++){ 
+//                 if(array[j] > array[j+1]){
 
 
+//                     int temp = array[j];
+//                     array[j] = array[j+1];
+//                     array[j+1] = temp;
+//                 }
+//              }
+//         } 
+//     }
 
+//     // for print array 
 
+//     public static void printArr(int array []){
+//         for(int i=0; i<array.length; i++){
+//             System.out.print(array[i] + " ");
+//         }
+//         System.out.println();
+//     }
 
+//     public static void main(String args []){
+//         int array [] = { 3, 1, 4, 5, 9}; 
+
+//         bubbleSort(array);
+//         printArr(array);
+//     }
+// }
 
 
 
