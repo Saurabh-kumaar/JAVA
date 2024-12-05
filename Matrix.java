@@ -283,27 +283,30 @@
 // =============================================================================================
 // =============================================================================================
 
-                    // print row 
+                          // print row 
 
-public class Matrix { 
+// public class Matrix { 
 
-    public static void printRow(int [][] matrix){
+//     public static void printRow(int [][] matrix){
 
-        int x = 3; 
-        int row = x;
+//         int x = 3; 
+//         int row = x;
 
-        for(int col=0; col<matrix.length; col++){
-            System.out.println(matrix[row][col]);
-        }
-    }
+//         for(int col=0; col<matrix.length; col++){
+//             System.out.println(matrix[row][col]);
+//         }
+//     }
 
-    public static void main(String args []){
-         int arr [][] = { {1,6,11,14,21}, {2,7,12,15,25}, {3,8,13,16,22}, {4,9,17,19,24}, {5,10,20,18,23}};
+//     public static void main(String args []){
+//          int arr [][] = { {1,6,11,14,21}, {2,7,12,15,25}, {3,8,13,16,22}, {4,9,17,19,24}, {5,10,20,18,23}};
 
-            printRow(arr);
-    }
-}
+//             printRow(arr);
+//     }
+// }
 
+
+// =============================================================================================
+// =============================================================================================
 
 
 
