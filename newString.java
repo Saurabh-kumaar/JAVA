@@ -107,11 +107,68 @@
 //         String path = "ES";
 //         System.out.println(getShortPath(path));
 //     }
-//  }
+//  } 
 
+// =============================================================================================
+// =============================================================================================
 
+                    // compare String 
 
+// import java.util.*;  
 
+// public class newString {
+
+// public static void main(String args []){
+//     String s1 = "raju";
+//     String s2 = "raju";
+//     String s3 = new String("raju");
+    
+//     // for compare 
+//     if(s1 == s2){
+//         System.out.println("String are equal");
+//     } else {
+//         System.out.println("String are not equal");
+//     } 
+
+//     if(s1 == s3 ){
+//         System.out.println("String are equal");
+//     } else {
+//         System.out.println("string are not equal");
+//     }
+
+//         // (.equal) 
+//     if(s1.equals(s3)){   // equal check only value
+//         System.out.println("String are equal");
+//     } else {
+//         System.out.println("String are not equal");
+//     }
+// }
+// }
+
+// =============================================================================================
+// =============================================================================================
+
+                    // find subString function 
+
+// import java.util.*; 
+
+// public class newString {  
+
+//     public static String subString(String str, int si, int ei){
+//         String substr = "";  // mt
+//         for(int i=si; i<ei; i++){
+//             substr += str.charAt(i);
+//         }
+//         return substr;
+//     }
+//         public static void main(String args []){
+//             String str = "kyahalhairajubhai";
+//             System.out.println(subString(str, 2, 8));
+//         }
+// }
+
+// // =============================================================================================
+// =============================================================================================
 
 
 
