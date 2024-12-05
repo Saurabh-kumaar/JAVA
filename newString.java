@@ -1,16 +1,20 @@
-import java.util.*; 
 
-public class newString { 
+        // today we learn string 
 
-    public static void printLetters(String str){
-        // find each latters 
-        for(int i=0; i<str.length(); i++){
-            System.out.print(str.charAt(i) + " ");
-        }
-        System.out.println();
-    }
 
-public static void main(String args []){
+// import java.util.*; 
+
+// public class newString { 
+
+//     public static void printLetters(String str){
+//         // find each latters 
+//         for(int i=0; i<str.length(); i++){
+//             System.out.print(str.charAt(i) + " ");
+//         }
+//         System.out.println();
+//     }
+
+// public static void main(String args []){
 
     // Scanner sc = new Scanner(System.in);
     // System.out.print("Enter name :");
@@ -23,13 +27,38 @@ public static void main(String args []){
     // System.out.println("fullname is = " + fullName + ", fullname length is = " + fullName.length());
     
     // // concatenation   :- when add 2 string in one .
-    String firstName = "ajju ";
-    String lastName = "bhai" ; 
+//     String firstName = "ajju ";
+//     String lastName = "bhai" ; 
 
-    String fullName = firstName+lastName;
-    System.out.println(fullName.charAt(1));
+//     String fullName = firstName+lastName;
+//     System.out.println(fullName.charAt(1));
       
-    printLetters(fullName);
+//     printLetters(fullName);  // call for function 
 
-    }
-}
+//     }
+// }
+
+// ======================================================================================
+// ====================================================================================== 
+
+        
+
+// import java.util.*; 
+
+// public class newString { 
+
+//     public static boolean isPalindrome(String str){
+//         for(int i=0; i<str.length()/2; i++){
+//             int n = str.length(); 
+//             if(str.charAt(i) != str.charAt(n-1-i)) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+
+//     public static void main(String args[]){
+//         String str = "raju";
+//         System.out.println(isPalindrome(str));
+//     }
+// }
