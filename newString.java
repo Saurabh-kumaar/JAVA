@@ -69,45 +69,45 @@
 
                     // shortest path 
 
- import java.util.*; 
+//  import java.util.*; 
  
- public class newString { 
+//  public class newString { 
 
-    public static float getShortPath(String path){
-        int x = 0, y =0; 
+//     public static float getShortPath(String path){
+//         int x = 0, y =0; 
 
-        for(int i=0; i<path.length(); i++){  //time complexity = O(n)
-            char dir = path.charAt(i);
+//         for(int i=0; i<path.length(); i++){  //time complexity = O(n)
+//             char dir = path.charAt(i);
 
-            // south 
-            if(dir == 's'){
-                y--;
-            }
-            // north 
-            else if(dir == 'N'){
-                y++;
-            }
-            // west 
-            else if(dir == 'W'){
-                x--; 
-            }
-            // east 
-            else {
-            }
-        }
-        int x2 = x*x; 
-        int y2 = y*y; 
-        return (float)Math.sqrt(x2 + y2);
+//             // south 
+//             if(dir == 's'){
+//                 y--;
+//             }
+//             // north 
+//             else if(dir == 'N'){
+//                 y++;
+//             }
+//             // west 
+//             else if(dir == 'W'){
+//                 x--; 
+//             }
+//             // east 
+//             else {
+//             }
+//         }
+//         int x2 = x*x; 
+//         int y2 = y*y; 
+//         return (float)Math.sqrt(x2 + y2);
 
 
-    }
+//     }
  
-    public static void main(String args []){
+//     public static void main(String args []){
         
-        String path = "ES";
-        System.out.println(getShortPath(path));
-    }
- }
+//         String path = "ES";
+//         System.out.println(getShortPath(path));
+//     }
+//  }
 
 
 
