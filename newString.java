@@ -271,7 +271,7 @@
 //         Scanner sc = new Scanner(System.in);
 //         String s = sc.nextLine();
 //         int count = 0;
-//         for(int i=0; i<s.length(); i++){
+//         for(int i=0; i<s.length(); i++){   //time complexity O(n)
 //             char ch = s.charAt(i);
 
 //             if(ch =='a' || ch =='e' || ch =='i' || ch =='o' || ch =='u'){
@@ -282,8 +282,29 @@
 //     }
 // }
 
+// ============================================================================================
+ //=============================================================================================
+ 
+                    // .equals use 
 
+// import java.util.*; 
 
+// public class newString {
+
+//     public static void main(String args []){
+
+//         String str = "helloraju";
+//         String str1 = "hellobhai";
+//         String str2 = "helloraju";
+
+//         // System.out.println(str.equals(str2));
+//         if(str == str2){
+//             System.out.println("it is same");
+//         } else {
+//             System.out.println("it is not same ");
+//         }
+//     }
+// }
 
 
 
