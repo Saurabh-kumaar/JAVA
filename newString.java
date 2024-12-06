@@ -306,8 +306,23 @@
 //     }
 // }
 
+// ============================================================================================
+// =============================================================================================
+ 
+                    // replace element 
 
+// import java.util.*;
 
+// public class newString {
+
+//     public static void main(String args []){
+
+//         String str = "hello bhai ";
+//         String str2 = str.replace  //("bhai", "bro"); 
+//         // String str2 = str.toUpperCase(); // to change font small to capital
+//         System.out.println(str2);
+//     }
+// }
 
 
 
