@@ -129,18 +129,40 @@
 // }
 
                 // updateBit 
-                
+
+// import java.util.*; 
+
+// public class bitManipulation { 
+
+//     public static int updateBit(int n, int i){
+//         int bitMask = (~0)<<i; 
+//         return n & bitMask; 
+//     }
+
+//     public static void main(String args []){ 
+//         System.out.println(updateBit(6, 2));
+
+//     }
+// }
+
+
+                // check num power of 2 
+
 import java.util.*; 
 
 public class bitManipulation { 
 
-    public static int updateBit(int n, int i){
-        int bitMask = (~0)<<i; 
-        return n & bitMask; 
+    public static boolean ispowerOftwo(int n){ 
+
+        if (n <= 0){
+            return false;
+        } else {
+            return (n & (n - 1)) == 0; 
+        }
     }
 
     public static void main(String args []){ 
-        System.out.println(updateBit(6, 2));
+        System.out.println(ispowerOftwo(64));
 
     }
 }
