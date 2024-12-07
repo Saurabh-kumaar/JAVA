@@ -93,3 +93,22 @@
 
 // =============================================================================================
 // =============================================================================================
+
+                    // set bit 
+
+// import java.util.*; 
+
+// public class bitManipulation { 
+
+//     public static int setBit(int n, int i){
+//         int bitMask = 1<<i; 
+//         return n | bitMask; 
+//     }
+
+//     public static void main(String args []){ 
+//         System.out.println(setBit(6, 2));
+
+//     }
+// }
+
+
