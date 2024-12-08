@@ -148,21 +148,67 @@
 
                 // check num power of 2 
 
+// import java.util.*; 
+
+// public class bitManipulation { 
+
+//     public static boolean ispowerOftwo(int n){ 
+
+//         if (n <= 0){
+//             return false;
+//         } else {
+//             return (n & (n - 1)) == 0; 
+//         }
+//     }
+
+//     public static void main(String args []){ 
+//         System.out.println(ispowerOftwo(64));
+
+//     }
+// }
+
+
+// Practise question :- 
+
+// 1:- 
+        // what is the value of x^x for any value of x ?. 
+
+// import java.util.*; 
+
+// public class bitManipulation {
+
+//     public static void main(String args []){
+//         int x1 = 4; 
+//         int x = 5; 
+//         System.out.println(x1^x1); 
+//         System.out.println(x^x);
+
+//     }
+// } 
+
+// 2:- 
+
+
+// live :- 
+
+// import java.util.*; 
+
+// public class bitManipulation {
+
+//     public static void main(String args []){
+//         int x = 11 ; 
+//         x = (x | (1<<6));
+//         System.out.println(x);
+//     }
+// }
+
 import java.util.*; 
 
-public class bitManipulation { 
+public class bitManipulation {
 
-    public static boolean ispowerOftwo(int n){ 
-
-        if (n <= 0){
-            return false;
-        } else {
-            return (n & (n - 1)) == 0; 
-        }
-    }
-
-    public static void main(String args []){ 
-        System.out.println(ispowerOftwo(64));
-
+    public static void main(String args []){
+        int x = 107; 
+        x = (x |(1<<4));
+        System.out.println(x);
     }
 }
