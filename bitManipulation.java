@@ -202,13 +202,29 @@
 //     }
 // }
 
-import java.util.*; 
+// ====== 
+
+// import java.util.*; 
+
+// public class bitManipulation {
+
+//     public static void main(String args []){
+//         int x = 107; 
+//         x = (x |(1<<4));
+//         System.out.println(x);
+//     }
+// } 
+
+// ===== 
+
+// import java.util.*;
 
 public class bitManipulation {
 
     public static void main(String args []){
-        int x = 107; 
-        x = (x |(1<<4));
+        int x = 22; 
+        x = (x & (0<<4)); 
         System.out.println(x);
     }
 }
+
