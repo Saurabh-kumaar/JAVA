@@ -187,6 +187,35 @@
 // } 
 
 // 2:- 
+        // swap two numbers without using any third Variables 
+
+// import java.util.*; 
+
+// public class bitManipulation {
+
+//     public static void main(String args []){
+
+//         int a = 20; 
+//         int b = 50; 
+
+//         System.out.println("value of a =" + a);
+//         System.out.println("value of b =" + b); 
+
+//         // swap this numbers 
+
+//         a = a^b; 
+//         b = a^b; 
+//         a = a^b;  
+
+//         System.out.println("value of a =" + a);
+//         System.out.println("value of b =" + b);
+//     }
+// }
+
+
+
+
+
 
 
 // live :- 
@@ -219,12 +248,12 @@
 
 // import java.util.*;
 
-public class bitManipulation {
+// public class bitManipulation {
 
-    public static void main(String args []){
-        int x = 22; 
-        x = (x & (0<<4)); 
-        System.out.println(x);
-    }
-}
+//     public static void main(String args []){
+//         int x = 22; 
+//         x = (x & (0<<4)); 
+//         System.out.println(x);
+//     }
+// }
 
