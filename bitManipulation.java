@@ -264,7 +264,7 @@
 //     }
 // }
  
-        conver
+        convert 
 
 // public class bitManipulation {
 
