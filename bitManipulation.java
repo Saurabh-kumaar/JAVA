@@ -148,22 +148,15 @@
 
                 // check num power of 2 
 
-// import java.util.*; 
-
 // public class bitManipulation { 
-
 //     public static boolean ispowerOftwo(int n){ 
 
-//         if (n <= 0){
-//             return false;
-//         } else {
-//             return (n & (n - 1)) == 0; 
-//         }
+//     return (n & (n - 1)) == 0;    
+
 //     }
-
 //     public static void main(String args []){ 
-//         System.out.println(ispowerOftwo(64));
 
+//         System.out.println(ispowerOftwo(8));
 //     }
 // }
 
@@ -211,11 +204,24 @@
 //         System.out.println("value of b =" + b);
 //     }
 // }
+ 
+// 3 :- 
 
+// import java.util.*;
 
+// public class bitManipulation {
 
+//     public static void main(String args[]) {
+//         int x = 6; 
+//         System.out.println(x + " + " + 1 + " is " + -~x);
 
+//         x = -4; 
+//         System.out.println(x + " + " + 1 + " is " + -~x); 
 
+//         x = 0; 
+//         System.out.println(x + " + " + 1 + " is " + -~x);
+//     }
+// }
 
 
 // live :- 
@@ -233,6 +239,7 @@
 
 // ====== 
 
+// set 
 // import java.util.*; 
 
 // public class bitManipulation {
@@ -256,4 +263,91 @@
 //         System.out.println(x);
 //     }
 // }
+ 
+        c
+
+// public class bitManipulation {
+
+//     public static void main(String args []){
+//         for(char ch = 'A'; ch <='z'; ch++){
+//             System.out.print(ch);
+//         }
+//     }
+// }
+
+
+
+
+
+// import java.util.*;
+
+// public class bitManipulation {
+
+//     public static char toLowercase(char ch) {
+//         // Set the 5th bit to 1 using the OR operation with 32 (0b00100000)
+//         return (char) (ch | ' ');
+//     }
+
+//     public static void main(String[] args) {
+//         char uppercase = 'A';
+//         char lowercase = toLowercase(uppercase);
+//         System.out.println("Uppercase: " + uppercase);
+//         System.out.println("Lowercase: " + lowercase);
+
+//         // Test with another character
+//         // char anotherUppercase = 'Z';
+//         // char anotherLowercase = toLowercase(anotherUppercase);
+//         // System.out.println("Uppercase: " + anotherUppercase);
+//         // System.out.println("Lowercase: " + anotherLowercase);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
