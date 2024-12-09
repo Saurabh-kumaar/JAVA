@@ -264,7 +264,7 @@
 //     }
 // }
  
-        convert 
+        convert  uppercase 
 
 // public class bitManipulation {
 
