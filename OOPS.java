@@ -56,3 +56,47 @@
 //     } 
 // }  
  
+                    // Constructor 
+
+// public class OOPS {
+
+//     public static void main(String args []){
+//         Student s1 = new Student("hello bhai");
+//         // System.out.println(s1.name);
+//     }
+// }
+
+// class Student {
+//     String name;
+//     int roll; 
+
+//     Student (String name){ 
+//         System.out.println("Constructor is called..........");
+//      }
+// }
+
+// ===================================================================================================
+// ===================================================================================================
+
+// public class OOPS {
+
+//     public static void main(String args []){
+//         Student s1 = new Student(); 
+//         s1.name = "shardha";
+//         s1.roll = 987; 
+//         s1.password = "abcd"; 
+
+
+//         Student s2 = new Student(s1);
+
+
+//     }
+// }
+ 
+
+
+
+
+
+
+
