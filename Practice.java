@@ -2902,25 +2902,57 @@
 // ========================================================================
 // ========================================================================
 
+// import java.util.*; 
+
+// public class Practice { 
+
+//     public static void bSort(int arr[]){
+
+//         // loop 
+//         for(int i=0; i<arr.length)
+//     }
+
+//     public static void main(String args []){
+//         int arr [] = { 4, 3, 8, 1,1};
+//     }
+// }
+
+                    // find the min value 
+
+// import java.util.*; 
+
+// public class Practice {
+
+//     public static void main(String args []){
+//         Scanner sc = new Scanner(System.in); 
+//         System.out.print("enter the value of a = ");
+//         int a = sc.nextInt(); 
+//         System.out.print("enter the value of b = ");
+
+//         int b = sc.nextInt(); 
+//         System.out.print("enter the value of c = ");
+
+//         int c = sc.nextInt();
+
+//         int max = (a + b + c)/3 ; 
+//         System.out.println("the maax of 3 num is = " + max );
+//     }
+// }
+
+
 import java.util.*; 
 
-public class Practice { 
-
-    public static void bSort(int arr[]){
-
-        // loop 
-        for(int i=0; i<arr.length)
-    }
+public class Practice {
 
     public static void main(String args []){
-        int arr [] = { 4, 3, 8, 1,1};
+        Scanner sc = new Scanner(System.in); 
+        int n = 10;
+        for(int i=1; i<=n; i++){  
+                System.out.print(i+ " ");
+            }
+        System.out.println();
     }
 }
-
-
-
-
-
 
 
 

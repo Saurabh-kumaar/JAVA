@@ -87,13 +87,95 @@
 //         s1.password = "abcd"; 
 
 
-//         Student s2 = new Student(s1);
+//         s1.marks[0] = 100;
+//         s1.marks[1] = 90;
+//         s1.marks[2] = 80;
 
-
+//         Student s2 = new Student(s1); //copy
+//         s2.password  = "xyz";
+//          s1.marks[2] =  100; 
+//         for(int i=0; i<3; i++){
+//             System.out.println(s2.marks[i]);
+//         }
 //     }
 // }
  
- l 
+// class Student { 
+//     String name; 
+//     int roll ; 
+//     String password; 
+//     int marks [];
+
+//     // shallow copy constructor 
+//     Student (Student s1){
+//         marks = new int[3];
+//         this.name = s1.name;
+//         this.roll = s1.roll;
+//         this.marks = s1.marks;
+//     } 
+
+//     Student(){
+//         marks = new int[3];
+//         System.out.println("constructor is called.......");
+//     } 
+
+//     Student(String name){
+//         marks = new int[3];
+//         this.name = name; 
+//     }
+//     Student(int roll){
+//         marks = new int[3];
+//         this.roll = roll; 
+//     }
+// }
+ 
+// Destructors 
+
+// Inheritance :- 
+
+        // single level inheritance
+// public class OOPS {
+
+//     public static void main(String args []){ 
+//         Fish shark = new Fish();
+//         shark.swim();
+//     }
+// }
+
+// // Base class 
+// class Animal {
+//     String color; 
+
+//     void eat() {
+//         System.out.println("eats");
+//     } 
+
+//     void breathe(){
+//         System.out.println("breathes");
+//     }
+// }
+
+// // Derived class  
+// class Fish extends Animal {
+//     int fins ; 
+
+//     void swim() {
+//         System.out.println("swim in water ");
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
