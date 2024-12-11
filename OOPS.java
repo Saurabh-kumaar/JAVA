@@ -133,7 +133,8 @@
 
 // Inheritance :- 
 
-        // single level inheritance
+        // single level inheritance:- 
+
 // public class OOPS {
 
 //     public static void main(String args []){ 
@@ -163,6 +164,8 @@
 //         System.out.println("swim in water ");
 //     }
 // }
+
+// ==== 
 
 // public class OOPS {
 
@@ -196,7 +199,78 @@
 // class Dog extends Mammals {
 //     String breed; 
 // }
+  
+
+public class OOPS {
+
+    public static void main(String args []){ 
+        Bird = new Bird();
+        tota.fly();
+    }
+} 
+
+// Base class 
+class Animal {
+    String color; 
+
+    void eat() {
+        System.out.println("eats");
+    } 
+
+    void breathe(){
+        System.out.println("breathes");
+    } 
+
+    void fly(){
+        System.out.println("fly");
+    }
+}
+
+// Derived class  
+class Fish extends Animal {
+    int fins ; 
+
+    void swim() {
+        System.out.println("swim in water "); 
+    } 
+}
  
+
+class Birds extends Animal{
+    int fly ;
+
+    void fly(){
+        System.out.println("fly in the sky ");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
