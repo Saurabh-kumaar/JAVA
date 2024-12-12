@@ -199,101 +199,35 @@
 // class Dog extends Mammals {
 //     String breed; 
 // }
-  
+//   ======
 
-// public class OOPS { 
+// polymorphispm 
+                // method overloading :-
+                
+public class OOPS {
 
-    // public static void main(String args []){  
-        // Bird = new Bird(); 
-        suga.fly();
-    }
-} 
-
-// Base class 
-class Animal {
-    String color; 
-
-    void eat() {
-        System.out.println("eats");
-    } 
-
-    void breathe(){
-        System.out.println("breathes");
-    } 
-
-    void fly(){
-        System.out.println("fly");
-    }
-}
-
-// Derived class  
-class Fish extends Animal {
-    int fins ; 
-
-    void swim() {
-        System.out.println("swim in water "); 
-    } 
-}
- 
-
-class Birds extends Animal{
-    int fly ;
-
-    void fly(){
-        System.out.println("fly in the sky ");
+    public static void main(String args[]){ 
+        Calculator calc = new Calculator(); 
+        System.out.println(calc.sum(2, 4));
+        System.out.println(calc.sum((float)3.2, (float)4.1));
+        System.out.println(calc.sum(1,2,3));
     }
 }
 
 
+class Calculator {
+    int sum(int a, int b){
+        return a + b; 
+    } 
 
+    float sum (float a, float b){
+        return a + b; 
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    int sum (int a, int b, int c){
+        return a + b + c ;
+    }
+}
 
 
 
