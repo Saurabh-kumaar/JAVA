@@ -202,6 +202,7 @@
 //   ======
 
 // polymorphispm 
+
                 // method overloading :-
 
 // public class OOPS {
@@ -229,9 +230,32 @@
 //     }
 // }
 
+        // Mehtod Overriding 
 
 
 
+// public class OOPS {
+
+//     public static void main(String args[]){ 
+//         Deer d new = Deer(); 
+//         d.eat();
+
+//     }
+// }
+
+// // parent class 
+// class Animal {
+//     void eat(){
+//         System.out.println("eat anything");
+//     }
+// } 
+
+// // child class 
+// class Deer extends Animal {
+//     void eat(){
+//         System.out.println("eat grass");
+//     }
+// }
 
 
 
