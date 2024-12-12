@@ -232,8 +232,6 @@
 
         // Mehtod Overriding 
 
-
-
 // public class OOPS {
 
 //     public static void main(String args[]){ 
@@ -256,6 +254,195 @@
 //         System.out.println("eat grass");
 //     }
 // }
+
+            // overriding :
+
+// public class OOPS {
+
+//     public static void main(String args[]){ 
+//         Dog d = new Dog(); 
+//         d.drink();
+
+//     }
+// }
+
+// // parent class 
+// class Animal {
+//     void drink(){
+//         System.out.println("drink only daru");
+//     }
+// }
+
+// // child class 
+//  class Dog extends Animal{
+//     void drink(){
+//         System.out.println("drink only bear ");
+//     } 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
