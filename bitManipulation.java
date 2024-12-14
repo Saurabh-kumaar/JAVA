@@ -288,7 +288,7 @@
 //         return (char) (ch | ' ');
 //     }
 
-//     public static void main(String[] args) { . 
+//     public static void main(String[] args) { . .
 //         char uppercase = 'A';
 //         char lowercase = toLowercase(uppercase);
 //         System.out.println("Uppercase: " + uppercase);
