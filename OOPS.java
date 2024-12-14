@@ -232,58 +232,49 @@
 
         // Mehtod Overriding :--..
 
-public class OOPS {
+// public class OOPS {
 
-    public static void main(String args[]){ 
-        Deer d new = Deer(); 
-        d.eat();
+//     public static void main(String args[]){ 
+//         Deer d = new Deer(); 
+//         d.drink();
 
-    }
-}
+//     }
+// }
 
-// parent class 
-class Animal {
-    void eat(){
-        System.out.println("eat anything");
-    }
-} 
+// // parent class 
+// class Animals {
+//     void eat(){
+//         System.out.println("eat anything");
+//     }
+// } 
 
-// child class 
-class Deer extends Animal {
-    void eat(){
-        System.out.println("eat grass");
-    }
-}
+// // child class 
+// class Deer extends Animal {
+//     void eat(){
+//         System.out.println("eat grass");
+//     }
+// }
 
-            overriding :-
+//             // overriding :-
 
-public class OOPS {
+// // parent class 
+// class Animal {
+//     void drink(){
+//         System.out.println("drink only daru");
+//     }
+// }
 
-    public static void main(String args[]){ 
-        Dog d = new Dog(); 
-        d.drink();
-
-    }
-}
-
-// parent class 
-class Animal {
-    void drink(){
-        System.out.println("drink only daru");
-    }
-}
-
-// child class 
- class Dog extends Animal{
-    void drink(){
-        System.out.println("drink only bear ");
-    } 
-}
+// // child class 
+//  class Dog extends Animal{
+//     void drink(){
+//         System.out.println("drink only bear ");
+//     } 
+// }
 
 
 
 
-zzz
+
 
 
 
