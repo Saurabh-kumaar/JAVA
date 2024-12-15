@@ -316,41 +316,68 @@
 
 // Static Keyword  :- 
 
-public class OOPS {
+// public class OOPS {
 
-    public static void main(String args []){
-      Student s1 = new Student(); 
-      s1.schoolName = "raju"; 
+//     public static void main(String args []){
+//       Student s1 = new Student(); 
+//       s1.schoolName = "raju"; 
       
-      Student s2 = new Student(); 
-      System.out.println(s2.schoolName); 
+//       Student s2 = new Student(); 
+//       System.out.println(s2.schoolName); 
 
-      Student s3 = new Student(); 
-      s3.schoolName = "oxford";
-      System.out.println(s3.schoolName);
-    }
-}
+//       Student s3 = new Student(); 
+//       s3.schoolName = "oxford";
+//       System.out.println(s3.schoolName);
+//     }
+// }
 
-// -------- class 
-class Student { 
-    String name ; 
-    int roll; 
+// // -------- class 
+// class Student { 
+//     String name ; 
+//     int roll; 
 
-    static String schoolName; 
+//     static String schoolName; 
 
-    void setName(String name){
-        this.name = name; 
-    }
+//     void setName(String name){
+//         this.name = name; 
+//     }
 
-    String getName(){
-        return this.name; 
-    }
-}
+//     String getName(){
+//         return this.name; 
+//     }
+// }
 
+// ============================================================================================= 
+// ============================================================================================= 
 
+// Super Keyword :- 
 
+// public class OOPS {
 
+//     public static void main(String args []){
+//         Horse h = new Horse();
+//         System.out.println(h.color);
 
+//     }
+// }
+ 
+//  class Animal {
+//     String color; 
+//     Animal(){
+//         System.out.println("animal is constructor is called");
+//     }
+//  }
+
+//  class Horse extends Animal { 
+
+//     Horse () {
+//         super.color = "brown";  // ese animal class ka constructor call ho jayega 
+//         System.out.println("horse constructor is called");
+//     }
+//  }
+
+// ============================================================================================= 
+// ============================================================================================= 
 
 
 
