@@ -383,27 +383,30 @@
 //     }
 //  }
 
-// ==============================================================================================
-// ==============================================================================================
+// // ==============================================================================================
+// // ==============================================================================================
 
 
 import java.util.*; 
 
 public class OOPS {
+ 
+    public static void printFactorial(int n){
+        int factorial = 1; 
 
-    public static void main(String args []){  
-        Scanner sc = new Scanner(System.in);
+        for(int i=n; i>=1; i--){
+            factorial = factorial * i; 
+        } 
+        System.out.println(factorial);
+        return; 
+    }
+    public static void main(String args []){
+        Scanner sc =  new Scanner(System.in);
         int n = sc.nextInt(); 
 
-         int sum = 0; 
-        for(int i=1; i<=n; i++){
-            sum = sum + i; 
-        } 
-        System.out.println(sum);
-         
-    } 
- }
-
+        printFactorial(n);
+    }
+}
 
 
 
