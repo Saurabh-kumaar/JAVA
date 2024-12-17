@@ -412,7 +412,7 @@
 //     //     }
 //     // }
 
-//     // for printing everyone sort 
+//     // for printing everyone sort .
 
 //     public static void printArr(int arr[]){
 //         for(int i=0; i<arr.length; i++){
