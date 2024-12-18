@@ -386,32 +386,72 @@
 // // ==============================================================================================
 // // ==============================================================================================
 
+                // this is another question - factorial 
 
-import java.util.*; 
+// import java.util.*; 
+
+// public class OOPS {
+ 
+//     public static void printFactorial(int n){
+//         int factorial = 1; 
+
+//         for(int i=n; i>=1; i--){
+//             factorial = factorial * i; 
+//         } 
+//         System.out.println(factorial);
+//         return; 
+//     }
+//     public static void main(String args []){
+//         Scanner sc =  new Scanner(System.in);;
+//         int n = sc.nextInt(); 
+
+//         printFactorial(n);
+//     }
+// }
+
+// ==================================================================================
+// ==================================================================================
+
+            // a power n and even odd , find power value 
+
+//  public class OOPS {
+ 
+//     public static void main(String args []){
+
+//         int a = 2, n = 6; 
+//         int ans = 1; 
+
+//         while(n > 0 ){
+//             if(n % 2 == 1){
+//                 ans = ans * 2; 
+//             } 
+//             n = n/2; 
+//             a = a*a;
+//         }
+//         System.out.println(ans);
+//     }
+//  }
+
+// ==================================================================================
+// ==================================================================================
 
 public class OOPS {
- 
-    public static void printFactorial(int n){
-        int factorial = 1; 
 
-        for(int i=n; i>=1; i--){
-            factorial = factorial * i; 
-        } 
-        System.out.println(factorial);
-        return; 
+    public static void printDec(int n){ 
+        if(n == 1){
+            System.out.print(n);
+            return;
+        }
+                
+        System.out.print(n+" ");
+        printDec(n-1);
     }
-    public static void main(String args []){
-        Scanner sc =  new Scanner(System.in);;
-        int n = sc.nextInt(); 
 
-        printFactorial(n);
+    public static void main(String args[]){
+        int n = 10;  
+        printDec(n);
     }
 }
-
-
-
-
-
 
 
 
