@@ -261,7 +261,28 @@
 // ==================================================================================
 
 
+//   print binary string of size N without consecutive ones. 
 
+public class Recursion { 
+
+    public static void printBinstrings(int n, int lastPlace, String str){
+        // base case 
+        if(n == 0){
+            System.out.println(str);
+            return; 
+        } 
+
+        // kaam 
+        printBinstrings(n-1,0,str+"0");
+        if(lastPlace == 0){
+            printBinstrings(n-1, 1, str+"1");
+        }
+       }
+
+    public static void main(String args []){
+        printBinstrings(3, 0, "");
+    }
+}
 
 
 
