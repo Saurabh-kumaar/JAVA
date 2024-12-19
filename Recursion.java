@@ -218,7 +218,7 @@ public class Recursion {
         return totalway; 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         System.out.println(tilingProblem(4));
     }
 }
