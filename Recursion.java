@@ -8,9 +8,8 @@
 // public class Recursion { 
 
 //     public static void printDec(int n){
-//         if(n == 1){
-//             System.out.print(n);
-//             return; 
+//         if(n == 0){
+//              return; 
 //         } 
 //         System.out.print(n+ " ");
 //         printDec(n-1);
@@ -176,9 +175,29 @@
 // ===================================================================================
 // ===================================================================================
 
+        // nth Term fibonacci 
+ 
+public class Recursion { 
 
+    public static int fib(int n){
+        if(n==0){
+            return 0; 
+        } 
+        if(n==1){
+            return 1;
+        } 
+        int lastTerm = fib(n-1);
+        int slastTerm = fib(n-2);
+        int nthTerm = lastTerm + slastTerm;
+        return nthTerm;
+    }
 
-
+    public static void main(String args[]){
+        int n = 10; 
+        int ans = fib(n);
+        System.out.println(ans);
+    }
+}
 
 
 
