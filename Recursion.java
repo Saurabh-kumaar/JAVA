@@ -202,29 +202,60 @@
 // ================================================================================================
 // ================================================================================================
 
-public class Recursion { 
+//                     tilingProblem // find floor 
+// public class Recursion { 
 
-    public static int tilingProblem(int n){   // 2 * n (florr size)
+//     public static int tilingProblem(int n){   // 2 * n (florr size)
 
-        if(n == 0 || n == 1){
-            return 1; 
-        } 
+//         if(n == 0 || n == 1){
+//             return 1; 
+//         } 
 
-        int fnm1 = tilingProblem(n-1);
+//         int fnm1 = tilingProblem(n-1);
+//         int fnm2 = tilingProblem(n-2);
 
-        int fnm2 = tilingProblem(n-2);
+//         int totalway = fnm1 + fnm2 ; 
+//         return totalway; 
+//     }
 
-        int totalway = fnm1 + fnm2 ; 
-        return totalway; 
-    }
+//     public static void main(String[] args) { 
+//         System.out.println(tilingProblem(4));,
+//     }
+// }
 
-    public static void main(String[] args) { 
-        System.out.println(tilingProblem(4));,
-    }
-}
-
+// ==================================================================================
+// ==================================================================================
 
 
+                    // removeDuplicates 
+
+                    
+// public class Recursion { 
+
+//     public static void removeDuplicates(String str, int idx, StringBuilder newStr, boolean map [] ){
+//         if(idx == str.length()){
+//             System.out.println(newStr);
+//             return;
+//         }
+
+//         // kaam 
+//         char currChar = str.charAt(idx); 
+//         if(map[currChar-'a'] == true){
+//             // duplicate 
+//             removeDuplicates(str, idx+1, newStr, map);
+
+//         } else {
+//             map[currChar-'a'] = true; 
+//             removeDuplicates(str, idx+1, newStr.append(currChar), map);
+//         }
+//     }
+
+//     public static void main(String args []){ 
+//         String str = "appnacollegehai";
+//         removeDuplicates(str, 0, new StringBuilder(""),new boolean[26]);
+
+//     }
+// }
 
 
 
