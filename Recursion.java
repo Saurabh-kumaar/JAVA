@@ -108,8 +108,10 @@
 //         if(n == 0 || n == 1){
 //             return 1; 
 //         }
+
 //         int fnm1 = fib(n-1);
 //         int fnm2 = fib(n-2);
+
 //         int fn = fnm1 + fnm2;
 //         return fn;
 //     }
@@ -150,7 +152,7 @@
 // ==================================================================================
 
 
-                // find keys 
+                // find keys help of recursion
 
 // public class Recursion {
 
@@ -202,7 +204,10 @@
 // ================================================================================================
 // ================================================================================================
 
+
 //                     tilingProblem // find floor 
+
+
 // public class Recursion { 
 
 //     public static int tilingProblem(int n){   // 2 * n (florr size)
@@ -314,25 +319,30 @@
  
                 // tower of hanoi 
                 
-public class Recursion { 
+// public class Recursion { 
 
-    public static void toh(int n, int A, int C, int B){
-        if(n == 0){
-            return; 
-        } 
+//     public static void toh(int n, int A, int C, int B){
+//         if(n == 0){
+//             return; 
+//         } 
 
-        toh(n-1, A, B, C);
-        System.out.println("moving " + n + " nth disk " + A + " to " + C );
-        toh(n-1, B, C, A);
-    }
+//         toh(n-1, A, B, C);
+//         System.out.println("moving " + n + " nth disk " + A + " to " + C );
+//         toh(n-1, B, C, A);
+//     }
 
-    public static void main(String args []){ 
-        toh(3, 10, 30, 20); 
-        return;
-    }
-}
+//     public static void main(String args []){ 
+//         toh(3, 10, 30, 20); 
+//         return;
+//     }
+// }
 
 
+// ==================================================================================
+// ==================================================================================
+
+
+// find alll contiguous subString Starting and ending :- .
 
 
 
