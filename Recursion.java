@@ -257,7 +257,7 @@ public class Recursion {
 
     public static void main(String args []){ 
         String str = "appnacollegehai";
-        removeDuplicates(str, 0, new StringBuilder(""),new boolean[26]);;;
+        removeDuplicates(str, 0, new StringBuilder(""),new boolean[26]);;;;
 
     }
 }
