@@ -296,7 +296,7 @@
 // Solution :- 
 // ques 3 :- 
 
-// write a program to find  length of a string using recursion.  
+    	        // write a program to find  length of a string using recursion.  
 
 
 // public class Recursion { 
@@ -309,7 +309,7 @@
 //     }
 
 //     public static void main(String args []){
-//         String str = "hello raju"; 
+//         String str = "hello raju bhai "; 
 //         System.out.println(length(str));
 //     }
 // }
