@@ -418,7 +418,7 @@
  
 //     public static void main(String args []){
 
-//         int a = 2, n = 6; 
+//         int a = 2, n = 7; 
 //         int ans = 1; 
 
 //         while(n > 0 ){
