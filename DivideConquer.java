@@ -210,8 +210,8 @@
 //         printArray(arr);
 
 //         rotateByOne(arr);
-d
-//         System.out.println("Rotated Array:");e
+
+//         System.out.println("Rotated Array:");
 //         printArray(arr);
 //     }
 // }
