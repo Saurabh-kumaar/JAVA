@@ -19,7 +19,7 @@
 //         System.out.println();
 //     }
  
-//     public static void main(String args []){
+//     public static void main(String args []){afde
 //         int arr [] = new int[5];
 //         changeArr(arr, 0, 1); kkkdadafeaer
 //         printArr(arr); 
