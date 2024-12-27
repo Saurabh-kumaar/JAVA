@@ -19,10 +19,10 @@
 //         System.out.println();
 //     }
  
-//     public static void main(String args []){afde
+//     public static void main(String args []){
 //         int arr [] = new int[5];
-//         changeArr(arr, 0, 1); kkkdadafeaer
-//         printArr(arr); 
+//         changeArr(arr, 0, 1); 
+//         printArr(arr); .
 //     }
 //  }
 
