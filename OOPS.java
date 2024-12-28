@@ -359,29 +359,29 @@
 
 // Super Keyword :- 
 
-// public class OOPS {
+public class OOPS {
 
-//     public static void main(String args []){
-//         Horse h = new Horse();
-//         System.out.println(h.color);
+    public static void main(String args []){
+        Horse h = new Horse();
+        System.out.println(h.color);
 
-//     }
-// }
+    }
+}
  
-//  class Animal {
-//     String color; 
-//     Animal(){
-//         System.out.println("animal is constructor is called");
-//     }
-//  }
+ class Animal {
+    String color; 
+    Animal(){
+        System.out.println("animal is constructor is called");
+    }
+ }
 
-//  class Horse extends Animal { 
+ class Horse extends Animal { 
 
-//     Horse () {
-//         super.color = "brown";  // ese animal class ka constructor call ho jayega 
-//         System.out.println("horse constructor is called");
-//     }
-//  }
+    Horse () {
+        super.color = "brown";  // ese animal class ka constructor call ho jayega 
+        System.out.println("horse constructor is called");
+    }
+ }
 
 // // ==============================================================================================
 // // ==============================================================================================
