@@ -49,7 +49,7 @@ public class BackTracking {
 
     public static void main(String args []){d
         String str = "abc";
-        findSubsets(str, "", 0);or
+        findSubsets(str, "", 0);ord
     }
 }d
 
