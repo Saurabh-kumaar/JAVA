@@ -47,7 +47,7 @@ public class BackTracking {
         findSubsets(str, ans, i+1);              
     }
 
-    public static void main(String args []){
+    public static void main(String args []){d
         String str = "abc";
         findSubsets(str, "", 0);or
     }
