@@ -105,7 +105,6 @@
 //     int temp = list.get(idx1); 
 //     list.set(idx1, list.get(idx2)); 
 //     list.set(idx2, temp);
-
 //     }
 
 //     public static void main(String args []) { 
