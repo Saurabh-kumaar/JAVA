@@ -269,7 +269,7 @@ public class ArrayLists {
 
         System.out.println(pairSum1(list, target));
 qg
-    }
+    }f
 }
 
 
