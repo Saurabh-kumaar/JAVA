@@ -268,7 +268,7 @@ public class ArrayLists {
         // int target = 233;   // false 
 
         System.out.println(pairSum1(list, target));
-
+q
     }
 }
 
