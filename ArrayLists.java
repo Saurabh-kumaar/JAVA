@@ -236,98 +236,71 @@
                     // pair sum (brute force) 
 
 
-import java.util.*; 
+// import java.util.*; 
 
-public class ArrayLists { 
+// public class ArrayLists { 
 
-    public static boolean pairSum1(ArrayList<Integer> list, int target){
+//     public static boolean pairSum1(ArrayList<Integer> list, int target){
 
-        for(int i=0; i<list.size(); i++){
-            for(int j=i+1; j<list.size(); j++){
-                if(list.get(i) + list.get(j) == target){
-                    return true; 
-                }
-            }
-        } 
-        return false; 
-    }
+//         for(int i=0; i<list.size(); i++){
+//             for(int j=i+1; j<list.size(); j++){
+//                 if(list.get(i) + list.get(j) == target){
+//                     return true; 
+//                 }
+//             }
+//         } 
+//         return false; 
+//     }
 
-    public static void main(String args []){
-        ArrayList<Integer> list = new ArrayList<>(); 
+//     public static void main(String args []){
+//         ArrayList<Integer> list = new ArrayList<>(); 
 
-        // 1,2,3,4,5,6
+//         // 1,2,3,4,5,6
 
-        list.add(1); 
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(5);
-        list.add(6);
-        list.add(7); 
-        int target = 13;    // true 
-        // int target = 233;   // false 
+//         list.add(1); 
+//         list.add(2);
+//         list.add(3);
+//         list.add(4);
+//         list.add(5);
+//         list.add(6);
+//         list.add(7); 
+//         int target = 13;    // true 
+//         // int target = 233;   // false 
 
-        System.out.println(pairSum1(list, target));
-qg
-    }f
-}
+//         System.out.println(pairSum1(list, target));
+
+//     }
+// }
 
 
 // ===============================================================================================================
 // ===============================================================================================================
 
 
+            // Lonely questions  
 
+// import java.util.HashMap;
 
+// public class ArrayLists {
 
+//     public static void main(String args[]){ 
 
+//         HashMap<Integer, Integer> mp = new HashMap<>(); 
 
+//         mp.put(7, 10); 
+//         mp.put(3, 5); 
+//         mp.put(9, 11); 
 
+//         System.out.println(mp.containsKey(7));
+//         System.out.println(mp.containsKey(3));
+//         System.out.println(mp.containsKey(6)); 
 
+//         System.out.println(mp.size());  // for count size 
+//     }
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ===============================================================================================================
+// ===============================================================================================================
 
 
 
