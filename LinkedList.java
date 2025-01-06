@@ -11,6 +11,7 @@
    }
    public static Node head;
    public static Node tail;
+   public static int  size; 
 
 
 // ============================================
@@ -18,6 +19,7 @@
     // addFirst
     public void addFirst(int data){ 
         Node newNode = new Node(data); 
+        size++; 
         if(head == null){
             head = tail = newNode; 
             return;
@@ -33,6 +35,7 @@
     // addLast 
     public void addLast (int data){
         Node newNode = new Node(data);
+        size++; 
         if(head == null){
             head = tail = newNode;
             return;
@@ -63,7 +66,12 @@
 
     // add num in middle 
     public void add(int idx, int data){
+        if( idx == 0) {
+            addFirst(data);
+            return; 
+        }
         Node newNode = new Node(data); 
+        size++;
         Node temp = head; 
         int i = 0; 
 
@@ -75,18 +83,41 @@
         // i = idx-1; temp -> prev
         newNode.next = temp.next; 
         temp.next = newNode; 
-    }
+    } 
+
+// ========================================
+
+    // remove first 
+    public int removeFirst(){
+        if(size == 0){
+            System.out.println("LL is empty");
+            return Integer.MIN_VALUE; 
+
+        }else if(size == 1){
+            int val = head.data; 
+            head = tail = null; 
+            size = 0; 
+            return val; 
+        }
+        int val = head.data; 
+        head = head.next; 
+        size--;
+        return val; 
+    } 
 
     public static void main(String args []){
 
         LinkedList ll = new LinkedList(); 
-        ll.addFirst(2);
         ll.addFirst(1);
         ll.addLast(3);
         ll.addLast(4);
-        ll.addFirst(0);
-        ll.add(2, 8);
+        ll.add(1, 2); 
 
+
+
+        ll.print(); // 1->2->3->4
+        // System.out.println(ll.size);
+        ll.removeFirst();
         ll.print();
 
     }
