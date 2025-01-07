@@ -195,8 +195,7 @@
 
         // System.out.println(ll.itrSearch(4)); // 
 
-        System.out.println(ll.recSearch(5));
-
+        System.out.println("ind = " + ll.recSearch(5));
     }
 }
 
