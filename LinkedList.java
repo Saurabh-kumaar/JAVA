@@ -163,14 +163,34 @@
             if(idx == -1){
                 return -1; 
             }
-
             return idx+1;
         }
-    
 
     public int recSearch(int key ) {
         return helper(head, key);
     }
+
+// ========================================== 
+    // reverse 
+    
+    public void reverse(){
+        Node prev = null;
+        Node curr = tail = head;
+        Node next; 
+
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next; 
+        }
+        head = prev; 
+    }
+
+// ========================================== 
+
+    // remove nth node from end 
+    
 
 
     public static void main(String args []){
@@ -184,7 +204,7 @@
 
 
 
-        ll.print(); // 1->2->3->4
+        ll.print(); // 1->2->3->4->5
         // System.out.println(ll.size);
         // ll.removeFirst();
         // ll.print();
@@ -195,9 +215,15 @@
 
         // System.out.println(ll.itrSearch(4)); // 
 
-        System.out.println("ind = " + ll.recSearch(5));
+        System.out.println("ind is = " + ll.recSearch(5));
+
+        ll.reverse(); // reverse 
+        ll.print();
+
     }
 }
+
+
 
  
 
