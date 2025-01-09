@@ -335,62 +335,118 @@
         // Detecting cycle code :- 
 
 
-import java.util.*; 
+// import java.util.*; 
 
-public class LinkedList {
+// public class LinkedList {
 
-    public static class Node{
-        int data; 
-        Node next; 
+//     public static class Node{
+//         int data; 
+//         Node next; 
 
-        public Node(int data){
-            this.data = data; 
-            this.next = null; 
-        }
-    } 
-
-
-    
-    public static Node head; 
+//         public Node(int data){
+//             this.data = data; 
+//             this.next = null; 
+//         }
+//     } 
 
 
+//     public static Node head; 
+
+//     public static boolean isCycle() {
+//         Node slow = head; 
+//         Node fast = head; 
+
+//         while(fast != null && fast.next != null){
+//             slow = slow.next; 
+//             fast = fast.next.next; 
+//             if(slow == fast) {
+//                 return true;  // cycle detected
+//             }
+//         }
+//         return false;  // no cycle
+//     }
+
+// // ==================================================
+
+//     // removeCycle 
+
+//     public static void removeCycle(){
+//         //detect cycle 
+//         Node slow = head ; 
+//         Node fast = head ; 
+//         boolean cycle = false; 
+//         while(fast != null && fast.next != null){
+//             slow = slow.next; 
+//             fast = fast.next.next; 
+//             if(fast == slow){
+//                 cycle = true; 
+//                 break; 
+//             }
+//         }
+//         if(cycle == false){
+//             return; 
+//         }
+
+//         // find meeting point 
+//         slow = head; 
+//         Node prev = null; 
+//         while(slow != fast){
+//             prev = fast; 
+//             slow = slow.next; 
+//             fast = fast.next; 
+//         }
+
+//         // remove cycle -> last.next = null
+//         prev.next = null;
+//     }
 
 
+//     public static void main(String args []){ 
+//         head = new Node(1);
+//         Node temp = new Node(2);
+//         head.next = temp;
+//         head.next.next = new Node(3);
+//         head.next.next.next = temp;
+
+//         System.out.println(isCycle()); // check 
+
+//         removeCycle();
+//         System.out.println(isCycle()); // remove cycle 
+
+//     }   
+// }
 
 
+// =================================================================================================== 
+// =================================================================================================== 
 
 
+        // LL in java Collections Framework 
 
+import java.util.LinkedList;
 
-    public static boolean isCycle() {
-        Node slow = head; 
-        Node fast = head; 
+public class YesLinkedList {
 
-        while(fast != null && fast.next != null){
-            slow = slow.next; 
-            fast = fast.next.next; 
-            if(slow == fast) {
-                return true;  // cycle detected
-            }
-        }
-        return false;  // no cycle
+    public static void main(String args []){
+
+        // create - LinkedList
+        LinkedList<Integer> ll = new LinkedList<>();
+
+        // add 
+        ll.addLast(2);
+        ll.addLast(3);
+        ll.addFirst(1);
+        // 1->2->3 
+        System.out.println(ll);
+
+        ll.removeLast(); 
+        System.out.println(ll);  // remove last
+
+        ll.removeFirst();
+        System.out.println(ll);  // removefirst
+
     }
-
-    public static void main(String args []){ 
-        head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = head; 
-
-        System.out.println(isCycle());
-
-
-    }   
-}ed
-a
-
-
-
+}
 
 
 
