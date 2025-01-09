@@ -446,7 +446,7 @@ public class YesLinkedList {
         System.out.println(ll);  // removefirst
 
     }
-}
+}drer
 
 
 
