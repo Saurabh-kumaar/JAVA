@@ -423,57 +423,160 @@
 
         // LL in java Collections Framework 
 
-import java.util.LinkedList;
+// import java.util.LinkedList;
 
-public class YesLinkedList {
+// public class YesLinkedList {
 
-    public static void main(String args []){
+//     public static void main(String args []){
 
-        // create - LinkedList
-        LinkedList<Integer> ll = new LinkedList<>();
+//         // create - LinkedList
+//         LinkedList<Integer> ll = new LinkedList<>();
 
-        // add 
-        ll.addLast(2);
-        ll.addLast(3);
-        ll.addFirst(1);
-        // 1->2->3 
-        System.out.println(ll);
+//         // add 
+//         ll.addLast(2);
+//         ll.addLast(3);
+//         ll.addFirst(1);
+//         // 1->2->3 
+//         System.out.println(ll);
 
-        ll.removeLast(); 
-        System.out.println(ll);  // remove last
+//         ll.removeLast(); 
+//         System.out.println(ll);  // remove last
 
-        ll.removeFirst();
-        System.out.println(ll);  // removefirst
+//         ll.removeFirst();
+//         System.out.println(ll);  // removefirst
 
-    }
-}
+//     }
+// }
 
 
 // =================================================================================================== 
 // =================================================================================================== 
 
 
+        // merge Sort on linked list :- 
+
+
+        // import java.util.*;
+
+        // public class YesLinkedList {
+        
+        //     public static class Node {
+        //         int data;
+        //         Node next;
+        
+        //         public Node(int data) {
+        //             this.data = data;
+        //             this.next = null;
+        //         }
+        //     }
+        
+        //     public static class LinkedList {
+        //         private Node head;
+        
+        //         public void addFirst(int data) {
+        //             Node newNode = new Node(data);
+        //             newNode.next = head;
+        //             head = newNode;
+        //         }
+        
+        //         public void print() {
+        //             Node temp = head;
+        //             while (temp != null) {
+        //                 System.out.print(temp.data + " -> ");
+        //                 temp = temp.next;
+        //             }
+        //             System.out.println("null");
+        //         }
+                
+        //         // getmid 
+        //         private Node getMid(Node head) {
+        //             Node slow = head;
+        //             Node fast = head.next;
+        
+        //             while (fast != null && fast.next != null) {
+        //                 slow = slow.next;
+        //                 fast = fast.next.next;
+        //             }
+        //             return slow; // mid node
+        //         }
+        
+        //         private Node merge(Node head1, Node head2) {
+        //             Node mergedLL = new Node(-1); // Dummy node
+        //             Node temp = mergedLL;
+        
+        //             while (head1 != null && head2 != null) {
+        //                 if (head1.data <= head2.data) {
+        //                     temp.next = head1;
+        //                     head1 = head1.next;
+        //                 } else {
+        //                     temp.next = head2;
+        //                     head2 = head2.next;
+        //                 }
+        //                 temp = temp.next;
+        //             }
+        
+        //             while (head1 != null) {
+        //                 temp.next = head1;
+        //                 head1 = head1.next;
+        //                 temp = temp.next;
+        //             }
+        
+        //             while (head2 != null) {
+        //                 temp.next = head2;
+        //                 head2 = head2.next;
+        //                 temp = temp.next;
+        //             }
+        
+        //             return mergedLL.next; // Return the actual merged head
+        //         }
+                
+        //         // merge 
+        //         public Node mergeSort(Node head) {
+        //             if (head == null || head.next == null) {
+        //                 return head;
+        //             }
+        
+        //             // Find mid
+        //             Node mid = getMid(head);
+        //             Node rightHead = mid.next;
+        //             mid.next = null;
+        
+        //             // Recursively sort left and right halves
+        //             Node newLeft = mergeSort(head);
+        //             Node newRight = mergeSort(rightHead);
+        
+        //             // Merge sorted halves
+        //             return merge(newLeft, newRight);
+        //         }
+        
+        //         public void sort() {
+        //             head = mergeSort(head);
+        //         }
+        //     }
+        
+        //     public static void main(String[] args) {
+        //         LinkedList ll = new LinkedList();
+        //         ll.addFirst(1);
+        //         ll.addFirst(2);
+        //         ll.addFirst(3);
+        //         ll.addFirst(4);
+        //         ll.addFirst(5);
+        //         // 5 -> 4 -> 3 -> 2 -> 1
+        
+        //         System.out.println("Original List:");
+        //         ll.print();
+        
+        //         ll.sort();
+        
+        //         System.out.println("Sorted List:");
+        //         ll.print();
+        //     }
+        // }
+    
+
+        // =================================================================================================== 
+        // =================================================================================================== 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
