@@ -363,7 +363,7 @@ public class Recursion {
         if(n == 1){
             System.out.print(n);
             return; 
-        }
+        }d
         printInc(n-1);
         System.out.print(n + " ");
     } 
