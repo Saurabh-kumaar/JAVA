@@ -344,7 +344,7 @@
 // ==================================================================================
 
 
-find all contiguous subString Starting and ending :- ...
+// find all contiguous subString Starting and ending :- ...
 
 public class Recursion { 
 
@@ -361,8 +361,8 @@ public class Recursion {
     // increasing 
     public static void printInc(int n){
         if(n == 1){
-            System.out.print(n);d
-            return; ddd
+            System.out.print(n);
+            return; 
         }
         printInc(n-1);
         System.out.print(n + " ");
