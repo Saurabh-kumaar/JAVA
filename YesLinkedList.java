@@ -611,7 +611,7 @@
 //         ll.addFirst(1);
 //         // 1->2->3->4->5 
 
-//         ll.print();df
+//         ll.print();dft
 //         ll.zigZag();
 //         ll.print();
 
