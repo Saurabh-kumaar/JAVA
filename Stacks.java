@@ -320,9 +320,72 @@
 // ==================================================================================================== 
 
 
+                        // Next greater Element 
+
+// import java.util.*; 
+
+// public class Stacks {
+
+//     public static void main(String args []){
+//         int arr[] = {6, 8, 0, 1, 3};
+//         Stack<Integer> s = new Stack<>(); 
+//         int nextGreater[] = new int[arr.length];
+
+//         for(int i= arr.length-1; i>=0; i--){
+//             while(!s.isEmpty() && arr[s.peek()] <= arr[i]) {
+//                 s.pop();
+//             }
+
+//             if(s.isEmpty()){
+//                 nextGreater[i] = -1;
+//             } else {
+//                 nextGreater[i] = arr[s.peek()];
+//             }
+//             s.push(i);
+//         }
+
+//         for(int i=0; i<nextGreater.length; i++){
+//             System.out.print(nextGreater[i]+" ");
+//         }
+//         System.out.println();
+
+//     }
+// }
 
 
+// ==================================================================================================== 
+// ==================================================================================================== 
 
+
+        // next session 2 stack  
+
+
+import java.util.*; 
+
+public class Stacks {
+
+    public static boolean isValid(String str ){
+        Stack<Character> s = new Stack<>(); 
+
+        for(int i=0; i<str.length(); i++){
+            char ch = str.charAt(i); 
+            // opening 
+            if (ch == '(' || ch == '{' || ch == '[') {     
+            } else {
+                // closing 
+                if(s.isEmpty()){
+                    return false;
+                } 
+                if( (s.peek() == '(' && ch == ')' ) 
+                    || (s.peek() == '{' && ch == '}')
+            }
+        }
+    }
+
+    public static void main(String args []){
+        String str = "(){}[)]"
+    }
+}
 
 
 
