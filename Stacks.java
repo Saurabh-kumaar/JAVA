@@ -382,7 +382,7 @@ public class Stacks {
         }
     }
 
-d    public static void main(String args []){
+d  s  public static void main(String args []){
         String str = "(){}[)]"
     }
 }
