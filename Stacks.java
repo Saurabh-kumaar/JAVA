@@ -353,43 +353,65 @@
 // }
 
 
+
 // ==================================================================================================== 
 // ==================================================================================================== 
+
 
 
         // next session 2 stack  
 
-
-import java.util.*; 
-
-public class Stacks {
-
-    public static boolean isValid(String str ){
-        Stack<Character> s = new Stack<>(); 
-
-        for(int i=0; i<str.length(); i++){
-            char ch = str.charAt(i); 
-            // opening 
-            if (ch == '(' || ch == '{' || ch == '[') {     
-            } else {
-                // closing 
-                if(s.isEmpty()){
-                    return false;
-                } 
-                if( (s.peek() == '(' && ch == ')' ) 
-                    || (s.peek() == '{' && ch == '}')
-            }
-        }
-    }
-
-d  s  public static void main(String args []){
-        String str = "(){}[)]"
-    }
-}
-s
+                    // valid parentheses 
 
 
+// import java.util.*; 
 
+// public class Stacks {
+
+//     public static boolean isValid(String str ){
+//         Stack<Character> s = new Stack<>(); 
+
+//         for(int i=0; i<str.length(); i++){
+//             char ch = str.charAt(i); 
+//             // opening 
+//             if (ch == '(' || ch == '{' || ch == '[') {   
+//                 s.push(ch);  
+//             } else {
+//                 // closing 
+//                 if(s.isEmpty()){
+//                     return false;
+//                 } 
+//                 if( (s.peek() == '(' && ch == ')' ) 
+//                     || (s.peek() == '{' && ch == '}')
+//                     || (s.peek() == '[' && ch == ']')){
+//                         s.pop();
+//                 } else {
+//                     return false;
+//                 }
+//             }
+//         }
+
+//         if(s.empty()){
+//             return true;
+//         } else {
+//             return false;
+//         }
+//     }
+
+//     public static void main(String args []){
+//         String str = "({})[]";
+//         System.out.println(isValid(str));
+//     }
+// }
+
+
+
+// ==================================================================================================== 
+// ==================================================================================================== 
+
+
+
+            // duplicate parentheses 
 
 
 
