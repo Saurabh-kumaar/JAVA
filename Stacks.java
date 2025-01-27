@@ -506,7 +506,7 @@ public class Stacks {
             int width = nsr[i] 
             
             
-ss
+sss
         }   
 
 
