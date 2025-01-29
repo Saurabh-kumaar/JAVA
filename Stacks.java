@@ -506,9 +506,8 @@ public class Stacks {
             int width = nsr[i] 
             
             
-        }   df
-h
-
+        }   
+dsf
 
 
 
