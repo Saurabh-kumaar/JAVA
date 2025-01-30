@@ -492,9 +492,9 @@ public class Stacks {
                 s.pop(); 
             }
             if(s.isEmpty()) {
-                nsr[i] = -1; 
+                nsl[i] = -1; 
             } else {
-                nsr[i] = s.peek(); 
+                nsl[i] = s.peek(); 
             }
             s.push(i);
 
@@ -503,21 +503,18 @@ public class Stacks {
         // current are : width = j-i-1 = nsr[i]-nsl[i]-1 
         for(int i =0; i<arr.length; i++){
             int height = arr[i]; 
-            int width = nsr[i] 
-            
-            
-        }   
-dsf
-sfgi
+            int width = nsr[i] - nsl[i] - 1; 
+            int currArea = height * width; 
+            maxArea = Math.max(currArea, maxArea);
+        } 
 
-sdf
-
-
-    }
+        System.out.println("max area in histogram = " + maxArea);
+    } 
 
     public static void main(String args []){
 
-        int arr[] = {2, 1, 5, 6, 2, 3};   // height 
+        int arr[] = {2, 4};   // height
+        maxArea(arr); 
 
 
     }
