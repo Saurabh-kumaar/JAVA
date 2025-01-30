@@ -515,8 +515,7 @@ public class Stacks {
 
         int arr[] = {2, 4};   // height
         maxArea(arr); 
-
-
+        
     }
 }
 
