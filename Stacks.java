@@ -486,7 +486,7 @@ public class Stacks {
 
         // next smaller left 
         s = new Stack<>(); 
-
+l
         for(int i=0; i<arr.length; i++){
             while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
                 s.pop(); 
@@ -515,7 +515,7 @@ public class Stacks {
 
         int arr[] = {2, 4};   // height
         maxArea(arr); 
-        
+
     }
 }
 
