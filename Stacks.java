@@ -490,7 +490,7 @@ l
         for(int i=0; i<arr.length; i++){
             while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
                 s.pop(); 
-            }
+            }d
             if(s.isEmpty()) {
                 nsl[i] = -1; 
             } else {
