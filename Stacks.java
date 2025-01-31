@@ -533,38 +533,40 @@
                 // addAtBottom 
                 
 
-import java.util.*; 
+// import java.util.*; 
 
-public class Stacks { 
+// public class Stacks { 
 
-    static void addAtBottom(Stack<Integer> st, int num){ 
-        if(st.isEmpty()){
-            st.push(num);
-            return;
-        }
+//     static void addAtBottom(Stack<Integer> st, int num){ 
+//         if(st.isEmpty()){
+//             st.push(num);
+//             return;
+//         }
 
-        int tp = st.pop(); 
-        addAtBottom(st, num);
-        st.push(tp);
-        return; 
-    }
+//         int tp = st.pop(); 
+//         addAtBottom(st, num);
+//         st.push(tp);
+//         return; 
+//     }
 
-    public static void main(String args []) {
-        Stack<Integer> st = new Stack<>(); 
-        st.push(5);
-        st.push(3);
-        st.push(7);
+//     public static void main(String args []) {
+//         Stack<Integer> st = new Stack<>(); 
+//         st.push(5);
+//         st.push(3);
+//         st.push(7);
  
-        addAtBottom(st, 1);  // for add in last 
+//         addAtBottom(st, 1);  // for add in last 
 
-        while(!st.isEmpty()){
-            int tp = st.pop(); 
-            System.out.println(tp);
-        }
-    }
-}
+//         while(!st.isEmpty()){
+//             int tp = st.pop(); 
+//             System.out.println(tp);
+//         }
+//     }
+// }
 
 
+// ==================================================================================================== 
+// ==================================================================================================== 
 
 
 
