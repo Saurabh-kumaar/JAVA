@@ -460,64 +460,118 @@
 
               // Max Area in Histogram  
 
+
+// import java.util.*; 
+
+// public class Stacks { 
+
+//     public static void maxArea(int arr[]){
+//         int maxArea = 0; 
+//         int nsr[] = new int[arr.length];
+//         int nsl[] = new int[arr.length]; 
+
+//         // next smaller right 
+//         Stack<Integer> s = new Stack<>(); 
+
+//         for(int i=arr.length-1; i>=0; i--) {
+//             while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
+//                 s.pop(); 
+//             }
+//             if(s.isEmpty()) {
+//                 nsr[i] = arr.length;
+//             } else {
+//                 nsr[i] = s.peek();
+//             } 
+//             s.push(i);
+//         }
+
+//         // next smaller left 
+//         s = new Stack<>(); 
+
+//         for(int i=0; i<arr.length; i++){
+//             while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
+//                 s.pop(); 
+//             }
+//             if(s.isEmpty()) {
+//                 nsl[i] = -1; 
+//             } else {
+//                 nsl[i] = s.peek(); 
+//             }
+//             s.push(i);
+
+//         }
+
+//         // current are : width = j-i-1 = nsr[i]-nsl[i]-1 
+//         for(int i =0; i<arr.length; i++){
+//             int height = arr[i]; 
+//             int width = nsr[i] - nsl[i] - 1; 
+//             int currArea = height * width; 
+//             maxArea = Math.max(currArea, maxArea);
+//         } 
+
+//         System.out.println("max area in histogram = " + maxArea);
+//     } 
+
+//     public static void main(String args []){
+
+//         int arr[] = {2, 4};   // height
+//         maxArea(arr); 
+
+//     }
+// }
+
+
+
+
+// ==================================================================================================== 
+// ==================================================================================================== 
+
+
+
+// live :- 
+
+                // addAtBottom 
+                
+
 import java.util.*; 
 
 public class Stacks { 
 
-    public static void maxArea(int arr[]){
-        int maxArea = 0; 
-        int nsr[] = new int[arr.length];
-        int nsl[] = new int[arr.length]; 
-
-        // next smaller right 
-        Stack<Integer> s = new Stack<>(); 
-
-        for(int i=arr.length-1; i>=0; i--) {
-            while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
-                s.pop(); 
-            }
-            if(s.isEmpty()) {
-                nsr[i] = arr.length;
-            } else {
-                nsr[i] = s.peek();
-            } 
-            s.push(i);
+    static void addAtBottom(Stack<Integer> st, int num){ 
+        if(st.isEmpty()){
+            st.push(num);
+            return;
         }
 
-        // next smaller left 
-        s = new Stack<>(); 
-l
-        for(int i=0; i<arr.length; i++){
-            while(!s.isEmpty() && arr[s.peek()] >= arr[i]) {
-                s.pop(); 
-            }d
-            if(s.isEmpty()) {
-                nsl[i] = -1; 
-            } else {
-                nsl[i] = s.peek(); 
-            }
-            s.push(i);
+        int tp = st.pop(); 
+        addAtBottom(st, num);
+        st.push(tp);
+        return; 
+    }
 
+    public static void main(String args []) {
+        Stack<Integer> st = new Stack<>(); 
+        st.push(5);
+        st.push(3);
+        st.push(7);
+ 
+        addAtBottom(st, 1);  // for add in last 
+
+        while(!st.isEmpty()){
+            int tp = st.pop(); 
+            System.out.println(tp);
         }
-
-        // current are : width = j-i-1 = nsr[i]-nsl[i]-1 
-        for(int i =0; i<arr.length; i++){
-            int height = arr[i]; 
-            int width = nsr[i] - nsl[i] - 1; 
-            int currArea = height * width; 
-            maxArea = Math.max(currArea, maxArea);
-        } 
-
-        System.out.println("max area in histogram = " + maxArea);
-    } 
-
-    public static void main(String args []){
-
-        int arr[] = {2, 4};   // height
-        maxArea(arr); 
-
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
