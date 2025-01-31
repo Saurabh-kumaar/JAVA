@@ -569,6 +569,51 @@
 // ==================================================================================================== 
 
 
+        // reverseStack  
+
+
+// import java.util.*; 
+
+// public class Stacks { 
+
+//     static void addAtBottom(Stack<Integer> st , int num ) {
+//         if(st.isEmpty()){
+//             st.push(num);
+//             return; 
+//         }
+//         int tp = st.pop(); 
+//         addAtBottom(st, num);
+//         st.push(tp);
+//         return; 
+//     } 
+
+//     static void reverseStack(Stack<Integer> st) {
+//         if(st.isEmpty()){
+//             return; 
+//         }
+//         int tp = st.pop(); 
+//         reverseStack(st);
+//         addAtBottom(st, tp);
+//     }
+
+//     public static void main(String args []){
+//         Stack<Integer> st = new Stack<>(); 
+
+//         st.push(3);
+//         st.push(5);
+//         st.push(8); 
+
+//         // print for reverseStack 
+//         while(!st.isEmpty()){
+//             int tp = st.pop();
+//             System.out.println(tp);
+//         }
+//     }
+// }
+
+
+// ==================================================================================================== 
+// ==================================================================================================== 
 
 
 
