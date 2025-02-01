@@ -414,23 +414,25 @@ public class OOPS {
 
             // a power n and even odd , find power value 
 
-//  public class OOPS {
+
+// import java.util.*; 
+ public class OOPS{
  
-//     public static void main(String args []){
+    public static void main(String args []){
 
-//         int a = 2, n = 7; 
-//         int ans = 1; 
+        int a = 2, n = 7;   // base = 2 ,  exponent = 7
+        int ans = 1; 
 
-//         while(n > 0 ){
-//             if(n % 2 == 1){
-//                 ans = ans * 2; 
-//             } 
-//             n = n/2; 
-//             a = a*a;
-//         }
-//         System.out.println(ans);
-//     }
-//  }
+        while(n > 0 ){
+            if(n % 2 == 1){
+                ans = ans * a; 
+            } 
+            n = n / 2; 
+            a = a * a;
+        }
+        System.out.println(ans);
+    }
+}
 
 // ====================================================================================
 // ====================================================================================
