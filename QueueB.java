@@ -81,7 +81,7 @@
 
 
 
-// public class Queue {  
+// public class Queues {  
 //     static class Node{
 //         int data ; 
 //         Node next; 
@@ -91,7 +91,7 @@
 //             this.next = null; 
 //         }
 //     }
-//     static class Queues {
+//     static class Queue {
 //         static Node head = null; 
 //         static Node tail = null; 
 
@@ -140,7 +140,7 @@
 //     }
 
 //     public static void main(String args []){
-//         Queues q = new Queues();
+//         Queue q = new Queue();
 //         q.add(1);
 //         q.add(2);
 //         q.add(3);
@@ -154,10 +154,39 @@
 
 
 
+// ============================================================================================================ 
+// ============================================================================================================ 
+
+
+            // impliment queue help of java collections frameawork 
+
+
+// import java.util.*;
+
+// public class QueueB{
+
+//     public static void main(String args []) {    // tc = O(n)
+//         // Queue<Integer> q = new LinkedList<>(); 
+//         Queue<Integer> q = new ArrayDeque<>(); 
+//         q.add(1); 
+//         q.add(2); 
+//         q.add(3); 
+//         q.add(5);  
+
+//         while(!q.isEmpty()) {
+//             System.out.println(q.peek());
+//             q.remove(); 
+//         }
+//     }
+// }
 
 
 
+// ============================================================================================================ 
+// ============================================================================================================ 
 
+
+                // Queue using 2 stack 
 
 
 
