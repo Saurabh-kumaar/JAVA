@@ -1,5 +1,11 @@
 
 
+
+                // Greedy 
+
+
+
+
         // activities Selection 
 
 // import java.util.ArrayList;
@@ -97,6 +103,42 @@
 
 // ====================================================================================================================== 
 // ====================================================================================================================== 
+
+
+                        // Fractional Knapsack 
+
+
+
+// ====================================================================================================================== 
+// ====================================================================================================================== 
+
+
+                // Minimum sum obsolute difference pair 
+                
+
+import java.util.*; 
+
+public class GreedyAlgorithm {
+
+    public static void main(String args []) {
+        int A[] = {1, 4, 8, 7};
+        int B[] = {2, 6, 3, 5};
+
+        Arrays.sort(A); 
+        Arrays.sort(B); 
+
+        int minDiff = 0; 
+
+        for(int i=0; i<A.length; i++) {
+            minDiff += Math.abs(A[i]-B[i]);
+        }
+
+        System.out.println("min absolute diff of pairs = " + minDiff);
+    }
+}
+
+
+
 
 
 
