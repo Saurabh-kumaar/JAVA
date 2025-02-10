@@ -259,7 +259,7 @@
 
                     // print one collom 
 
-// public class Matrix {
+// public class aray2d {
 
 //     public static void printSpiral(int [][] matrix){
 
