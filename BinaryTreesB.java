@@ -289,9 +289,9 @@ public class BinaryTreesB {
                 return true; 
              }
         }
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
 
-    }yuyij
-er
+    }
 
     public static void main(String args []){ 
 
@@ -319,13 +319,15 @@ er
         */
         Node subRoot = new Node(2); 
         subRoot.left = new Node(4); 
-        subRoot.right = new Node(5); 
+        // subRoot.right = new Node(5); 
 
 
      // System.out.println("total height is = " + height(root));
         // System.out.println(count(root)); 
         // System.out.println("total sum is = " + sum(root));
-        System.out.println(diameter(root));
+        // System.out.println(diameter(root)); 
+
+        System.out.println(isSubtree(root, subRoot));
 
         
     }
