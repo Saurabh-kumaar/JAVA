@@ -197,7 +197,10 @@ public class BinaryTreesB {
             this.left = null; 
             this.right = null; 
         }
-    } 
+    }  
+
+
+    // find height of a tree :-
 
     public static int height(Node root){
         if(root == null ) {
@@ -206,8 +209,65 @@ public class BinaryTreesB {
 
         int lh = height(root.left);
         int rh = height(root.right);
-        return Math.max(lh, rh6 ) + 1; 
+        return Math.max(lh, rh) + 1; 
+    }  
+
+// =========================================================================
+// =========================================================================
+
+
+    // count Node in a tree :- 
+
+    public static int count(Node root) {
+        if(root == null) {
+            return 0; 
+        }
+
+        int leftCount = count(root.left); 
+        int rightCount = count(root.right); 
+        return leftCount + rightCount + 1;
     }
+
+// =========================================================================
+// =========================================================================.
+
+    // sum of Nodes :- 
+    
+    public static int sum(Node root) {
+        if(root == null){
+            return 0; 
+        }
+        int leftsum = sum(root.left);
+        int rightsum = sum(root.right); 
+        return  leftsum + rightsum + root.data; 
+    } 
+
+// =========================================================================.
+// =========================================================================.
+
+    // diameter :- Appproach-1 
+
+    public static int diameter(Node root) {
+        if(root == null) {
+            return 0; 
+        } 
+
+        int leftdiam = diameter(root.left); 
+        int rightdiam = diameter(root.right); 
+        int leftHt = height(root.left); 
+        int rightHt = height(root.right); 
+
+        int selfdiam = leftHt + rightHt + 1; 
+        return Math.max(selfdiam, Math.max(leftdiam, rightdiam));
+
+    }
+
+// =========================================================================.
+// =========================================================================.
+
+    // Approach 2 :- 
+
+    
 
     public static void main(String args []){ 
 
@@ -219,52 +279,33 @@ public class BinaryTreesB {
              4  5 6  7
 
         */ 
-        
+
         Node root = new Node(1); 
         root.left = new Node(2);
         root.right = new Node(3);
         root.left.left = new Node(4);
         root.left.right = new Node(5);
         root.right.left = new Node(6);
-        root.right.right = new Node(7); 
+        root.right.right = new Node(7);  
 
-        System.out.println("total height is = " + height(root));
+     // System.out.println("total height is = " + height(root));
+        // System.out.println(count(root)); 
+        // System.out.println("total sum is = " + sum(root));
+        System.out.println(diameter(root));
+
         
     }
 }
 
 
 
+// ======================================================================================================================================== 
+// ========================================================================================================================================
 
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Part 2 :- 
+ 
 
 
 
