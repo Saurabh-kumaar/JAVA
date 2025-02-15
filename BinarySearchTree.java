@@ -1,3 +1,8 @@
+
+
+            // BUILD A BST(BINARY SEARCH TREE ):- 
+
+
 public class BinarySearchTree {
 
     static class Node{
@@ -23,7 +28,7 @@ public class BinarySearchTree {
         } 
         return root; 
     } 
-dsfsjdkf
+
     public static void inorder(Node root) {
         if(root == null) {
             return;
@@ -33,7 +38,11 @@ dsfsjdkf
         inorder(root.right);
     }
 
+// ================================================================================== 
+// ==================================================================================
 
+
+    // for searching 
     public static boolean search(Node root, int key) {
         if(root == null) {
             return false; 
@@ -49,14 +58,11 @@ dsfsjdkf
 
         else {
             return search(root.right, key); 
+        }
     }
-}
+
 
     
-
-
-
-
     public static void main(String args []) {
         int values [] = {5, 1, 3, 4, 2, 7};
         Node root = null; 
@@ -68,6 +74,7 @@ dsfsjdkf
         // System.out.println();
 
 
+        // for searching 
         for(int i=0; i<values.length; i++) {
             root = insert(root, values[i]); 
         } 
@@ -75,7 +82,7 @@ dsfsjdkf
         inorder(root); 
         System.out.println(); 
 
-        if(search(root, 1)) {
+        if(search(root, 8)) {
             System.out.println("found");
         } else {
             System.out.println("not found");
@@ -88,95 +95,4 @@ dsfsjdkf
 
 
 // ================== 
-
-// public class BinarySearchTree { 
-
-//     static  class Node {
-//         int data; 
-//         int right, left; 
-
-//             Node(int data) { 
-        
-//             this.data = data; 
-//             this.right = null; 
-//             this.left = null; 
-//             }
-
-         
-//     }
-
-
-//     public static boolean search(Node root, int key) {
-//             if(root == null) {
-//                 return false; 
-//             } 
-
-//             if(root.data  == key) {
-//                 return true;
-//             } 
-
-//             if(root.data > key) {
-//                 return search(root.left, key); 
-//             } 
-
-//             else {
-//                 return search(root.right, key); 
-//         }
-//     }
-
-//     public static void main(String args []) {
-//         int values[ ] = {5, 1, 2, 3, 4, 7};
-//         Node root = null;   
-
-//         for(int i=0; i<values.length; i++) {
-//             root = insert(root, values[i]); 
-//         } 
-
-//         inorder(root); 
-//         System.out.println(); 
-
-//         if(search(root, 1)) {
-//             System.out.println("found");
-//         } else {
-//             System.out.println("not found");
-//         }
-
-//     }
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
