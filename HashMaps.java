@@ -153,32 +153,33 @@
 // =========================================================================================
 // =========================================================================================
 
-// import java.util.*; 
-// public class HashMaps {
+import java.util.*; 
+public class HashMaps {
 
-//     public static void main(String args[]) { 
-//         int arr[] = {1,8,5,3};
-//         HashMap<Integer , Integer> hm = new HashMap<>();  
-//         int ans [] = new int[2]; 
+    public static void main(String args[]) { 
+        int arr[] = {1,8,5,3};
+        HashMap<Integer , Integer> hm = new HashMap<>();  
+        int ans [] = new int[2]; 
 
-//         for(int i=0; i<nums.length; i++) {
-//             int currEle = nums[i]; 
-//             int remainingSum = target - currEle; 
+        for(int i=0; i<nums.length; i++) {
+            int currEle = nums[i]; 
+            int remainingSum = target - currEle; 
 
-//             if(hm.containsKey(remainingSum)) {
-//                 ans[0] = hm.get(remainingSum); 
-//                 ans[1] = i; 
+            if(hm.containsKey(remainingSum)) {
+                ans[0] = hm.get(remainingSum); 
+                ans[1] = i; 
 
-//                 return ans; 
-//             }
-//             hm.put(currEle, i); 
-//         }
-//         return ans; 
+                return ans; 
+            }
+            hm.put(currEle, i); 
+        }
+        return ans; 
 
-//     }
-// }
+    }
+}
 
-
+// ================================================================================== 
+// ================================================================================== 
 
 // Leetcode :- 560 
 
@@ -201,37 +202,37 @@
 //     } 
 // } 
  
+// ============ 
+
+// import java.util.*;
+
+// public class HashMaps {  
+
+//     public int subarraySum(int nums[] , int k) {
+//         int n = nums.length; 
+//         int count = 0; 
+
+//         for(int i=0; i<n; i++) {
+//             int sum = 0; 
+
+//             for(int j=i; j<n; j++) {
+//                 sum += nums[j];  
+
+//                 if( sum == k) count++; 
+
+//             }
+//         } 
+//         return count++; 
+//     }
 
 
-import java.util.*;
-
-public class HashMaps {  
-
-    public int subarraySum(int nums[] , int k) {
-        int n = nums.length; 
-        int count = 0; 
-
-        for(int i=0; i<n; i++) {
-            int sum = 0; 
-
-            for(int j=i; j<n; j++) {
-                sum += nums[j];  
-
-                if( sum == k) count++; 
-
-            }
-        } 
-        return count++; 
-    }
-
-
-    public static void main(String args[]) {
-        HashMaps sol = new HashMaps(); 
-        int nums [] = {1, 2, 3,3};
-        int k = 3; 
-        System.out.println(sol.subarraySum(nums, k));
-    }
-}
+//     public static void main(String args[]) {
+//         HashMaps sol = new HashMaps(); 
+//         int nums [] = {1, 2, 3,3};
+//         int k = 3; 
+//         System.out.println(sol.subarraySum(nums, k));
+//     }
+// }
 
 
 
