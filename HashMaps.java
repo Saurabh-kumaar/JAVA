@@ -154,7 +154,21 @@
 // =========================================================================================
 
 import java.util.*; 
-public class HashMaps {
+public class HashMaps { 
+    public static int[] twoSum(int arr[], int target) {
+        HashMap<Integer, Integer> hm = new HashMap<>(); 
+
+        for(int i=0; i<arr.length; i++) {
+            int currEle = arr[i]; 
+            int remainingSum = target - currEle; 
+
+            if(hm.containsKey(remainingSum)) {
+                return new int[]{hm.get(remainingSum),i}; 
+            }
+            hm.put(currEle, i); 
+        }
+        return null; 
+    }
 
     public static void main(String args[]) { 
         int arr[] = {1,8,5,3};
