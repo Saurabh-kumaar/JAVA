@@ -153,44 +153,44 @@
 // =========================================================================================
 // =========================================================================================
 
-import java.util.*; 
-public class HashMaps { 
-    public static int[] twoSum(int arr[], int target) {
-        HashMap<Integer, Integer> hm = new HashMap<>(); 
+// import java.util.*; 
+// public class HashMaps { 
+//     public static int[] twoSum(int arr[], int target) {
+//         HashMap<Integer, Integer> hm = new HashMap<>(); 
 
-        for(int i=0; i<arr.length; i++) {
-            int currEle = arr[i]; 
-            int remainingSum = target - currEle; 
+//         for(int i=0; i<arr.length; i++) {
+//             int currEle = arr[i]; 
+//             int remainingSum = target - currEle; 
 
-            if(hm.containsKey(remainingSum)) {
-                return new int[]{hm.get(remainingSum),i}; 
-            }
-            hm.put(currEle, i); 
-        }
-        return null; 
-    }
+//             if(hm.containsKey(remainingSum)) {
+//                 return new int[]{hm.get(remainingSum),i}; 
+//             }
+//             hm.put(currEle, i); 
+//         }
+//         return null; 
+//     }
 
-    public static void main(String args[]) { 
-        int arr[] = {1,8,5,3};
-        HashMap<Integer , Integer> hm = new HashMap<>();  
-        int ans [] = new int[2]; 
+//     public static void main(String args[]) { 
+//         int arr[] = {1,8,5,3};
+//         HashMap<Integer , Integer> hm = new HashMap<>();  
+//         int ans [] = new int[2]; 
 
-        for(int i=0; i<nums.length; i++) {
-            int currEle = nums[i]; 
-            int remainingSum = target - currEle; 
+//         for(int i=0; i<nums.length; i++) {
+//             int currEle = nums[i]; 
+//             int remainingSum = target - currEle; 
 
-            if(hm.containsKey(remainingSum)) {
-                ans[0] = hm.get(remainingSum); 
-                ans[1] = i; 
+//             if(hm.containsKey(remainingSum)) {
+//                 ans[0] = hm.get(remainingSum); 
+//                 ans[1] = i; 
 
-                return ans; 
-            }
-            hm.put(currEle, i); 
-        }
-        return ans; 
+//                 return ans; 
+//             }
+//             hm.put(currEle, i); 
+//         }
+//         return ans; 
 
-    }
-}
+//     }
+// }
 
 // ================================================================================== 
 // ================================================================================== 
@@ -233,12 +233,10 @@ public class HashMaps {
 //                 sum += nums[j];  
 
 //                 if( sum == k) count++; 
-
 //             }
 //         } 
 //         return count++; 
 //     }
-
 
 //     public static void main(String args[]) {
 //         HashMaps sol = new HashMaps(); 
@@ -249,12 +247,72 @@ public class HashMaps {
 // }
 
 
+// ================================================================================== 
+// ================================================================================== 
+ 
+
+
+                    // Valid  Anangram :- 
+
+                    
+import java.util.*; 
+
+public class HashMaps {
+
+    public static boolean isAnangram(String s, String t) { 
+        if(s.length() != t.length()) {
+            return false; 
+        }
+        HashMap<Character , Integer> map = new HashMap<>(); 
+        
+        for(int i=0; i<s.length(); i++) {
+            char ch = s.charAt(i); 
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        }
+
+        for(int i=0; i<t.length(); i++) {
+            char ch = t.charAt(i); 
+            if(map.get(ch) != null) {
+                if(map.get(ch) == 1) {
+                    map.remove(ch); 
+                } else {
+                    map.put(ch, map.get(ch) -1);
+
+                }
+            } else {
+                return false; 
+            }
+        }
+        return map.isEmpty(); 
+    } 
+
+    public static void main(String args[]) {
+        String s = "arry";
+        String t = "rray"; 
+
+        System.out.println(isAnangram(s, t));
+    }
+}
 
 
 
 
 
-uh 
-ghjgyg 
-uiuuuj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
