@@ -331,31 +331,162 @@
 
             // Iteration on HashSet :- 
 
-import java.util.*; 
+// import java.util.*; 
 
-public class HashMaps {
+// public class HashMaps {
 
-    public static void main(String args[]) {
-        HashSet<String> cities = new HashSet<>(); 
-        cities.add("varanasi"); 
-        cities.add("mohania"); 
-        cities.add("ramgarh"); 
-        cities.add("bhabhua");  
+//     public static void main(String args[]) {
+//         HashSet<String> cities = new HashSet<>(); 
+//         cities.add("varanasi"); 
+//         cities.add("mohania"); 
+//         cities.add("ramgarh"); 
+//         cities.add("bhabhua");  
 
-        // cities.remove("varanasi"); 
+//         // cities.remove("varanasi"); 
  
-        // 1st 
-        // Iterator it = cities.iterator(); 
-        // while(it.hasNext()) {
-        //     System.out.println(it.next());
-        // }
+//         // 1st 
+//         // Iterator it = cities.iterator(); 
+//         // while(it.hasNext()) {
+//         //     System.out.println(it.next());
+//         // }
 
-        // adavanced 
-        for(String city : cities) {
-            System.out.println(city);
-        }
-    } 
-}
+//         // adavanced 
+//         for(String city : cities) {
+//             System.out.println(city);
+//         }
+//     } 
+// }
+
+
+// ================================================================================== 
+// ================================================================================== 
+
+                // LinkedHashSet :  
+                // TreeSet 
+        // TreeSet -> treeMap -> red-black 
+
+// import java.util.*; 
+
+//  import java.util.*; 
+
+// public class HashMaps {
+
+//     public static void main(String args []) {
+//         HashSet<String> cities = new HashSet<>(); 
+//         cities.add("varansi"); 
+//         cities.add("ramgarh"); 
+//         cities.add("mohania"); 
+//         cities.add("bhabhua");  
+
+//         LinkedHashSet<String> lhs = new LinkedHashSet<>(); 
+//         lhs.add("varansi"); 
+//         lhs.add("ramgarh"); 
+//         lhs.add("mohania"); 
+//         lhs.add("bhabhua");  
+
+//         TreeSet<String> ts = new TreeSet<>(); 
+//         ts.add("varansi"); 
+//         ts.add("ramgarh"); 
+//         ts.add("mohania"); 
+//         ts.add("bhabhua");    
+        
+
+//         System.out.println(cities);
+//         System.out.println(lhs);  
+//         System.out.println(ts);  // in order form  accending order 
+
+//         lhs.remove("varansi");
+//         System.out.println(lhs); 
+//     }
+// }
+
+// // ================================================================================== 
+// // ================================================================================== 
+
+        //   Count distinct elements 
+
+// import java.util.*; 
+// public class HashMaps {
+
+//     public static void main(String args []) {
+//         int sum[] = {4, 3, 2 ,1, 5, 7, 2, 4, 3, 5}; // only count how many digit have .
+//                 // output :- 6 ({4, 3, 2, 1, 5, 7})  
+//         HashSet<Integer> set = new HashSet<>(); 
+
+//         for(int i=0; i<sum.length; i++) {
+//             set.add(sum[i]); 
+//         } 
+//         System.out.println("ans = " + set.size()); 
+//     }
+// }
+
+// // ================================================================================== 
+// // ================================================================================== 
+
+                // Union and Intersection :- 
+
+
+// import java.util.*; 
+
+// public class HashMaps { 
+
+//     public static void main(String args[]) { 
+//         int arr1[] = {7, 3, 2,};
+//         int arr2[] = {6, 4, 3, 7, 9};
+//         HashSet<Integer> set = new HashSet<>(); 
+
+//         // union 
+//         for(int i=0; i<arr1.length; i++)  {
+//             set.add(arr1[i]); 
+//         }
+
+//         for(int i=0; i<arr2.length; i++) {
+//             set.add(arr2[i]); 
+//         } 
+
+//         System.out.println("union = " + set.size());
+
+//         // intersection 
+//         set.clear();
+//         for(int i=0; i<arr1.length; i++) {
+//             set.add(arr1[i]); 
+//         } 
+
+//         int count = 0; 
+//         for(int i=0; i<arr2.length; i++) {
+//             if(set.contains(arr2[i])) {
+//                 count++; 
+//                 set.remove(arr2[i]);
+//             }
+//         }
+//         System.out.println("intersection = " + count);
+//     }
+// }
+
+// ==================================================================================
+// ================================================================================== 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
