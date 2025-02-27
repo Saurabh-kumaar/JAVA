@@ -329,6 +329,33 @@
 // ================================================================================== 
 
 
+            // Iteration on HashSet :- 
+
+import java.util.*; 
+
+public class HashMaps {
+
+    public static void main(String args[]) {
+        HashSet<String> cities = new HashSet<>(); 
+        cities.add("varanasi"); 
+        cities.add("mohania"); 
+        cities.add("ramgarh"); 
+        cities.add("bhabhua");  
+
+        // cities.remove("varanasi"); 
+ 
+        // 1st 
+        // Iterator it = cities.iterator(); 
+        // while(it.hasNext()) {
+        //     System.out.println(it.next());
+        // }
+
+        // adavanced 
+        for(String city : cities) {
+            System.out.println(city);
+        }
+    } 
+}
 
 
 
