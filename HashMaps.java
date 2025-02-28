@@ -508,36 +508,89 @@
 // ================================================================================== 
 // ================================================================================== 
 
-                Largest subarray with sum 0 
-                
-import java.util.*; 
+                // Largest subarray with sum 0 
 
-public class HashMaps {
+// import java.util.*; 
 
-    public static void main(String args []) {
-        int arr[] = {15, -2, 2, -8, 1, 7, 10, 23}; 
+// public class HashMaps {
 
-        HashMap<Integer, Integer> map = new HashMap<>(); 
-        // sum , idx 
+//     public static void main(String args []) {
+//         int arr[] = {15, -2, 2, -8, 1, 7, 10, 23}; 
 
-        int sum = 0; 
-        int len = 0; 
+//         HashMap<Integer, Integer> map = new HashMap<>(); 
+//         // sum , idx 
 
-        for(int j=0; j<arr.length; j++) {
-            sum += arr[j]; 
-            if(map.containsKey(sum)) {
-                len = Math.max(len, j-map.get(sum)); 
-            } else {
-                map.put(sum, j); 
-            }
-        }
-        System.out.println("largest subarray with sum as 0 => " + len);
-    }
-}
+//         int sum = 0; 
+//         int len = 0; 
 
-
+//         for(int j=0; j<arr.length; j++) {
+//             sum += arr[j]; 
+//             if(map.containsKey(sum)) {
+//                 len = Math.max(len, j-map.get(sum)); 
+//             } else {
+//                 map.put(sum, j); 
+//             }
+//         }
+//         System.out.println("largest subarray with sum as 0 => " + len);
+//     }
+// }
 
 
+// ==================================================================================
+// ==================================================================================
+
+                    // subarray sum equal to k 
+
+// import java.util.*; 
+//  public class HashMaps {
+ 
+//     public static void main(String args[]) {
+//         int arr[] = { 1, 3, 1, 4, 5, -2, 6}; 
+//         int k = 4; 
+//         int n= arr.length; 
+//         int count = 0;  
+        
+//         for(int i=0; i<n; i++) {
+//             int sum = 0; 
+//             for(int j=i; j<n; j++) {
+//                 sum += arr[j]; 
+
+//                 if(sum == k) {
+//                     count++; 
+//                 }
+//             }
+//         } 
+//         System.out.println("count with subarray sum " + k + " = is " + count);
+//     }
+//  }
+
+// 2nd method 
+
+// import java.util.*; 
+
+// public class HashMaps {
+
+//     public static void main(String args[ ]) {
+//         int arr[] = { 3, 2 , 3 , 5 , 4, 1};  
+//         int k = 5; 
+
+//         HashMap<Integer, Integer> map = new HashMap<>(); 
+//         map.put(0, 1); 
+//         int sum =0; 
+//         int ans = 0;  
+
+//         for(int i=0; i<arr.length; i++) {
+//             sum += arr[i]; 
+
+//             if(map.containsKey(sum -k)) {
+//                 ans += map.get(sum-k) ;
+//             }
+//             map.put(sum,map.getOrDefault(sum, 0) +1);
+
+//         }
+//         System.out.println("subarray sum equal " + ans);
+//     }
+// }
 
 
 
