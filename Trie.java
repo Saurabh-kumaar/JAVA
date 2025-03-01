@@ -148,9 +148,87 @@
 // ==================================================================================================
 // ================================================================================================== 
 
-
-
+            // startWith and element is present or not! 
            
+// import java.util.*; 
+
+// public class Trie {  
+//     static class Node {
+//         boolean eow = false; 
+//         int freq; 
+//         Node children[] = new Node[26];
+
+//         public Node() {
+//             for(int i=0; i<children.length; i++) {
+//                 children[i] = null; 
+//             } 
+//             freq = 1;
+//         }
+//     } 
+
+//     public static Node root = new Node(); 
+
+//     public static void insert(String word) {
+//         Node curr = root; 
+//         for(int i=0; i<word.length(); i++) {
+//             int idx = word.charAt(i)-'a';
+//             if(curr.children[idx] == null) {
+//                 curr.children[idx] = new Node(); 
+//             } else {
+//                 curr.children[idx].freq++; 
+//             } 
+
+//             curr = curr.children[idx];
+//         }
+//         curr.eow = true; 
+//     } 
+
+//     public static boolean search(String key) {
+//         Node curr = root; 
+//         for(int level=0; level<key.length(); level++) {
+//             int idx = key.charAt(level)-'a'; 
+//             if(curr.children[idx] == null) {
+//                 return false; 
+//             } 
+//             curr = curr.children[idx]; 
+//         } 
+//         return curr.eow == true; 
+//     }  
+
+//     public static boolean startWith(String prefix) {
+//         Node curr = root; 
+
+//         for(int i=0; i<prefix.length(); i++) {
+//             int idx = prefix.charAt(i) -'a'; 
+//             if(curr.children[idx] == null) {
+//                 return false; 
+//             }
+//             curr = curr.children[idx]; 
+//         }
+//         return true; 
+//     }
+    
+//     public static void main(String args[]) {  
+
+//         String words[] = {"apple", "app", "mango", }; 
+//         String prefix1 = "app"; 
+//         String prefix2 = "moon";  
+
+//         for(int i=0; i<words.length; i++){
+//             insert(words[i]);
+//         }
+
+//         System.out.println(startWith(prefix1));   // true
+//         System.out.println(startWith(prefix2));  // false 
+//     }
+// }
+
+// =================================================================================================================== 
+          
+
+                    // Unique Substring :- 
+
+
 import java.util.*; 
 
 public class Trie {  
@@ -194,33 +272,31 @@ public class Trie {
             curr = curr.children[idx]; 
         } 
         return curr.eow == true; 
-    }  
+    }   
 
-    public static boolean startWith(String prefix) {
-        Node curr = root; 
+    public static int countNodes(Node root) {
+        if(root == null) {
+            return 0; 
+        } 
 
-        for(int i=0; i<prefix.length(); i++) {
-            int idx = prefix.charAt(i) -'a'; 
-            if(curr.children[idx] == null) {
-                return false; 
+        int count = 0; 
+        for(int i=0; i<26; i++) {
+            if(root.children[i] != null) {
+                count+= countNodes(root.children[i]); 
             }
-            curr = curr.children[idx]; 
-        }
-        return true; 
+        } 
+        return count+1; 
     }
     
-    public static void main(String args[]) {  
+    public static void main(String args[]) {    
+        String str = "apple";  
 
-        String words[] = {"apple", "app", "mango", }; 
-        String prefix1 = "app"; 
-        String prefix2 = "moon";  
-
-        for(int i=0; i<words.length; i++){
-            insert(words[i]);
-        }
-
-        System.out.println(startWith(prefix1));   // true
-        System.out.println(startWith(prefix2));  // false 
+        // suffic -> insert in trie 
+        for(int i=0; i<str.length(); i++) {
+            String suffix = str.substring(i); 
+            insert(suffix);
+        } 
+        System.out.println(countNodes(root)); 
     }
 }
 
