@@ -229,74 +229,93 @@
                     // Unique Substring :- 
 
 
-import java.util.*; 
+// import java.util.*; 
 
-public class Trie {  
-    static class Node {
-        boolean eow = false; 
-        int freq; 
-        Node children[] = new Node[26];
+// public class Trie {  
+//     static class Node {
+//         boolean eow = false; 
+//         int freq; 
+//         Node children[] = new Node[26];
 
-        public Node() {
-            for(int i=0; i<children.length; i++) {
-                children[i] = null; 
-            } 
-            freq = 1;
-        }
-    } 
+//         public Node() {
+//             for(int i=0; i<children.length; i++) {
+//                 children[i] = null; 
+//             } 
+//             freq = 1;
+//         }
+//     } 
 
-    public static Node root = new Node(); 
+//     public static Node root = new Node(); 
 
-    public static void insert(String word) {
-        Node curr = root; 
-        for(int i=0; i<word.length(); i++) {
-            int idx = word.charAt(i)-'a';
-            if(curr.children[idx] == null) {
-                curr.children[idx] = new Node(); 
-            } else {
-                curr.children[idx].freq++; 
-            } 
+//     public static void insert(String word) {
+//         Node curr = root; 
+//         for(int i=0; i<word.length(); i++) {
+//             int idx = word.charAt(i)-'a';
+//             if(curr.children[idx] == null) {
+//                 curr.children[idx] = new Node(); 
+//             } else {
+//                 curr.children[idx].freq++; 
+//             } 
 
-            curr = curr.children[idx];
-        }
-        curr.eow = true; 
-    } 
+//             curr = curr.children[idx];
+//         }
+//         curr.eow = true; 
+//     } 
 
-    public static boolean search(String key) {
-        Node curr = root; 
-        for(int level=0; level<key.length(); level++) {
-            int idx = key.charAt(level)-'a'; 
-            if(curr.children[idx] == null) {
-                return false; 
-            } 
-            curr = curr.children[idx]; 
-        } 
-        return curr.eow == true; 
-    }   
+//     public static boolean search(String key) {
+//         Node curr = root; 
+//         for(int level=0; level<key.length(); level++) {
+//             int idx = key.charAt(level)-'a'; 
+//             if(curr.children[idx] == null) {
+//                 return false; 
+//             } 
+//             curr = curr.children[idx]; 
+//         } 
+//         return curr.eow == true; 
+//     }   
 
-    public static int countNodes(Node root) {
-        if(root == null) {
-            return 0; 
-        } 
+//     public static int countNodes(Node root) {
+//         if(root == null) {
+//             return 0; 
+//         } 
 
-        int count = 0; 
-        for(int i=0; i<26; i++) {
-            if(root.children[i] != null) {
-                count+= countNodes(root.children[i]); 
-            }
-        } 
-        return count+1; 
-    }
+//         int count = 0; 
+//         for(int i=0; i<26; i++) {
+//             if(root.children[i] != null) {
+//                 count+= countNodes(root.children[i]); 
+//             }
+//         } 
+//         return count+1; 
+//     }
     
-    public static void main(String args[]) {    
-        String str = "apple";  
+//     public static void main(String args[]) {    
+//         String str = "apple";  
 
-        // suffic -> insert in trie 
-        for(int i=0; i<str.length(); i++) {
-            String suffix = str.substring(i); 
-            insert(suffix);
-        } 
-        System.out.println(countNodes(root)); 
-    }
+//         // suffic -> insert in trie 
+//         for(int i=0; i<str.length(); i++) {
+//             String suffix = str.substring(i); 
+//             insert(suffix);
+//         } 
+//         System.out.println(countNodes(root)); 
+//     }
+// }
+
+
+
+
+
+class Solution{
+    public:
+      vector<vector<string> ans; 
+      unordered_map<string, vector<string>umap; 
+
+      for(auto x : umap) {
+        string temp = x; 
+        sort(x.begin(), x.end()); 
+        umap[x].push_back(temp); 
+      }
+      for(auto x : umap) {
+        ans.push_back(x.second); 
+      } 
+      return ans; 
 }
-
