@@ -166,13 +166,13 @@ public class Graph2 {
         return false; 
     } 
 
-    public static boolean; detectCycleUtil(ArrayList<Edge>[]graph, boolean vis[], int curr, int par) { 
+    public static boolean detectCycleUtil(ArrayList<Edge>[]graph, boolean vis[], int curr, int par) { 
         vis[curr] = true;  
 
         for(int i=0; i<graph[curr].size(); i++) {
             Edge e = graph[curr].get(i); 
             // case 3 
-            if(!vis[e.dest] && detectCycle(graph, vis, e.dest, curr)) {
+            if(!vis[e.dest] && detectCycleUtil(graph, vis, e.dest, curr)) {
                 return true; 
             } 
             // case 1 
