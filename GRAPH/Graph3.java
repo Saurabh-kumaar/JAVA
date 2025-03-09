@@ -1,7 +1,7 @@
 
                         // topological sorting using DFS 
 
-                        
+
 import java.util.*; 
 public class Graph3 { 
     static class Edge{ 
@@ -67,7 +67,7 @@ public class Graph3 {
                   \      /
                     \   /
                       3
-         */
+        */
         int V = 6; 
         ArrayList<Edge> graph[] = new ArrayList[V]; 
         createGraph(graph);
