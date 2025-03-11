@@ -20,8 +20,10 @@ public class DP1 {
         int f [] = new int[n+1] ; 
         System.out.println(fib(n, f));
     }
-}adf 
+} 
 
-adfj 
 
+
+
+iru 
 osidj 
