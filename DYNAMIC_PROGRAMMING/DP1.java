@@ -36,31 +36,57 @@
 
 
             // Climbimg stairs 
-            
 
-import java.util.*;  
+
+// import java.util.*;  
  
-class DP1 {  
+// class DP1 {  
 
-    public static int countWay(int n) {
-        if(n == 0) {
+//     public static int countWay(int n) {
+//         if(n == 0) {
+//             return 1; 
+//         } 
+//         if(n < 0) {
+//             return 0; 
+//         } 
+//         return countWay(n-1) + countWay(n-2); 
+//     }
+
+//     public static void main(String args[]) {
+//         int n = 5; 
+//         System.out.println(countWay(n)); 
+
+//     }
+// }
+
+                // same code with memoization 
+                
+ import java.util.*;
+public class DP1 { 
+
+    public static int countWay(int n, int ways[]) { 
+        if(n == 0){
             return 1; 
-        } 
-        if(n < 0) {
+        }
+        if(n < 0){
             return 0; 
         } 
-        return countWay(n-1) + countWay(n-2); 
-    }
+        if(ways[n] != -1) {
+            return ways[n]; 
+        } 
+
+        ways[n] = countWay(n-1, ways) + countWay(n-2, ways); 
+        return ways[n]; 
+        
+    } 
 
     public static void main(String args[]) {
         int n = 5; 
-        System.out.println(countWay(n)); 
-
-    }
+        int ways[] = new int[n+1];
+        Arrays.fill(ways, -1);
+        System.out.print(countWay(n, ways));
+    }   
 }
-
-
-
 
 
 
